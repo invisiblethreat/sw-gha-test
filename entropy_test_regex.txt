@@ -1,0 +1,10 @@
+# normalized entropy
+.* AssertionError: .* for (.+) to be ([0-9\.]+) but observed ([0-9\.]+) using charset ([A-Z_0-9]+) and normalization (True|False)
+$5, $1, $4, $3
+
+^\w+, .+, ([A-Z0-9_]+), ([0-9.]+)
+'$1': $2,
+
+# shannon entropy
+.* AssertionError: .* for (.+) to be ([0-9\.]+) but observed ([0-9\.]+) using charset ([A-Z_0-9]+)
+'$4': $3,

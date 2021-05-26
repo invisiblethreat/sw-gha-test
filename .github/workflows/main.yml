@@ -1,0 +1,86 @@
+#---
+#kind: pipeline
+#name: default
+#
+#steps:
+#- name: test
+#  image: python:3.8-slim
+#  commands:
+#    - pip3 install -r test_requirements.txt
+#    - pip3 install -r requirements.txt
+#    - PYTHONPATH=api_key_detector
+#    - pip3 install -e .
+#    - pytest --showlocals --tb=long -v --cov=api_key_detector --cov-report term-missing tests/
+#- name: build
+#  image: python:3.8-slim
+#  environment:
+#    PACKAGECLOUD_TOKEN:
+#      from_secret: packagecloud_token
+#  commands:
+#    - apt-get update && apt-get -y install curl
+#    - pip3 install -r requirements.txt
+#    - python setup.py bdist_wheel
+#    - curl -X POST https://$PACKAGECLOUD_TOKEN:@packagecloud.io/api/v1/repos/Coalition/leakdetection/packages.json -F "package[distro_version_id]=166" -F "package[package_file]=@`ls dist/*.whl`"
+#  when:
+#    branch:
+#      - master
+#
+#node:
+#  env: aws-sandbox
+---
+name: Test, Build, and Upload
+on:
+  push:
+    branches:
+      - master
+jobs:
+  testing:
+    runs_on: ubuntu-20.04
+    env:
+      PYTHONPATH: api_key_detector
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install build dependencies
+        run: sudo apt-get update && apt-get -y install curl python3 python3-pip
+      - name: Install Python requirements with pip
+        run: sudo pip3 install -r $GITHUB_WORKSPACE/requirements.txt
+      - name: Install Python test requirements with pip
+        run: sudo pip3 install -r $GITHUB_WORKSPACE/test_requirements.txt
+      - name: Install remaining dependencies
+        run: sudo pip3 install -e $GITHUB_WORKSPACE/.
+      - name: Run tests
+        run: pytest --showlocals --tb=long -v --cov=api_key_detector --cov-report term-missing $GITHUB_WORKSPACE/tests/
+  build:
+    runs_on: ubuntu-20.04
+    env:
+      PYTHONPATH: api_key_detector
+    steps:
+      - uses: actions/checkout@v2
+      - name: Install build dependencies
+        run: sudo apt-get update && apt-get -y install curl python3 python3-pip
+      - name: Install Python requirements with pip
+        run: sudo pip3 install -r $GITHUB_WORKSPACE/requirements.txt
+      - name: Build packages
+        run: python3 setup.py bdist_wheel
+      - name: Cache artifacts
+        uses: actions/cache@v2
+        env:
+          cache-name: api_key_detector
+        with:
+          path: dist/
+          key: dist_api_key_detector
+
+  upload:
+    runs_on: ubuntu-20.04
+    steps:
+      - name: Install upload dependencies
+        run: sudo apt-get update && apt-get -y install curl
+      - name: Restore artifacts
+        uses: actions/cache@v2
+        env:
+          cache-name: api_key_detector
+        with:
+          path: dist/
+          key: dist_api_key_detector
+      - name: Upload artifacts to PackageCloud
+        run: curl -X POST https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/api/v1/repos/Coalition/leakdetection/packages.json -F "package[distro_version_id]=166" -F "package[package_file]=@`ls dist/*.whl`

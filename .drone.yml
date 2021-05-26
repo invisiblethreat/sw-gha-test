@@ -1,0 +1,29 @@
+---
+kind: pipeline
+name: default
+
+steps:
+- name: test
+  image: python:3.8-slim
+  commands:
+    - pip3 install -r test_requirements.txt
+    - pip3 install -r requirements.txt
+    - PYTHONPATH=api_key_detector
+    - pip3 install -e .
+    - pytest --showlocals --tb=long -v --cov=api_key_detector --cov-report term-missing tests/
+- name: build
+  image: python:3.8-slim
+  environment:
+    PACKAGECLOUD_TOKEN:
+      from_secret: packagecloud_token
+  commands:
+    - apt-get update && apt-get -y install curl
+    - pip3 install -r requirements.txt
+    - python setup.py bdist_wheel
+    - curl -X POST https://$PACKAGECLOUD_TOKEN:@packagecloud.io/api/v1/repos/Coalition/leakdetection/packages.json -F "package[distro_version_id]=166" -F "package[package_file]=@`ls dist/*.whl`"
+  when:
+    branch:
+      - master
+
+node:
+  env: aws-sandbox
