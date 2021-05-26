@@ -52,6 +52,7 @@ jobs:
       - name: Run tests
         run: pytest --showlocals --tb=long -v --cov=api_key_detector --cov-report term-missing $GITHUB_WORKSPACE/tests/
   build:
+    needs: testing
     runs-on: ubuntu-20.04
     env:
       PYTHONPATH: api_key_detector
@@ -72,6 +73,7 @@ jobs:
           key: api_key_detector
 
   upload:
+    needs: build
     runs-on: ubuntu-20.04
     steps:
       - name: Install upload dependencies
