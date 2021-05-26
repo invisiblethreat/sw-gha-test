@@ -91,5 +91,5 @@ jobs:
         run: |
           for i in $(ls dist/*.whl)
           do
-            curl -X POST https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/api/v1/repos/Coalition/leakdetection/packages.json -F "package[distro_version_id]=166" -F "package[package_file]=@dist/$i
+            curl -X POST https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/api/v1/repos/Coalition/leakdetection/packages.json -F "package[distro_version_id]=166" -F "package[package_file]=@dist/$i"
           done
