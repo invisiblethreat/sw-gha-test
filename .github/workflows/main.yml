@@ -69,7 +69,7 @@ jobs:
           cache-name: api_key_detector
         with:
           path: dist/
-          key: dist_api_key_detector
+          key: api_key_detector
 
   upload:
     runs-on: ubuntu-20.04
@@ -82,6 +82,6 @@ jobs:
           cache-name: api_key_detector
         with:
           path: dist/
-          key: dist_api_key_detector
+          key: api_key_detector
       - name: Upload artifacts to PackageCloud
         run: curl -X POST https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/api/v1/repos/Coalition/leakdetection/packages.json -F "package[distro_version_id]=166" -F "package[package_file]=@`ls dist/*.whl`
