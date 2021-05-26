@@ -88,4 +88,8 @@ jobs:
       - name: List artifacts
         run: ls -lah dist/
       - name: Upload artifacts to PackageCloud
-        run: curl -X POST https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/api/v1/repos/Coalition/leakdetection/packages.json -F "package[distro_version_id]=166" -F "package[package_file]=@`ls dist/*.whl`
+        run: |
+          for i in $(ls dist/*.whl)
+          do
+            curl -X POST https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/api/v1/repos/Coalition/leakdetection/packages.json -F "package[distro_version_id]=166" -F "package[package_file]=@dist/$i
+          done
