@@ -1,6 +1,6 @@
 """Test basic filesystem operations"""
 
-# pylint: disable=line-too-long,missing-docstring,consider-with,invalid-name
+# pylint: disable=line-too-long,missing-docstring,consider-using-with,invalid-name
 
 import pytest
 from ExtFs import Filesystem
