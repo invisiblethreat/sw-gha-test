@@ -38,8 +38,10 @@ jobs:
         run: sudo pip3 install -r test-requirements.txt
       - name: Install remaining dependencies
         run: sudo pip3 install -e . --extra-index-url https://pypi.org/simple --index-url https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/Coalition/leakdetection/pypi/simple
+      - name: Extract the package name and set variable
+        run: echo "packagename=$(grep name setup.py|cut -d\' -f2)" >> $GITHUB_ENV
       - name: Run tests
-        run: pytest --showlocals --tb=long -v --cov=$(grep name setup.py|cut -d\' -f) --cov-report term-missing $GITHUB_WORKSPACE/tests/
+        run: pytest --showlocals --tb=long -v --cov=${{ env.packagename }} --cov-report term-missing $GITHUB_WORKSPACE/tests/
   build:
     needs: testing
     runs-on: ubuntu-20.04
