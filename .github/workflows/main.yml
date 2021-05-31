@@ -28,25 +28,21 @@ on:
 jobs:
   testing:
     runs-on: ubuntu-20.04
-    env:
-      PYTHONPATH: content_analyzer
     steps:
       - uses: actions/checkout@v2
       - name: Install build dependencies
         run: sudo apt-get update && sudo apt-get -y install python3.8 python3-pip
       - name: Install Python requirements with pip
-        run: sudo pip3 install -r $GITHUB_WORKSPACE/requirements.txt
+        run: sudo pip3 install -r requirements.txt
       - name: Install Python test requirements with pip
-        run: sudo pip3 install -r $GITHUB_WORKSPACE/test-requirements.txt
+        run: sudo pip3 install -r test-requirements.txt
       - name: Install remaining dependencies
-        run: sudo pip3 install -e $GITHUB_WORKSPACE/. --extra-index-url https://pypi.org/simple --index-url https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/Coalition/leakdetection/pypi/simple
+        run: sudo pip3 install -e . --extra-index-url https://pypi.org/simple --index-url https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/Coalition/leakdetection/pypi/simple
       - name: Run tests
         run: pytest --showlocals --tb=long -v --cov=$(grep name setup.py|cut -d\' -f) --cov-report term-missing $GITHUB_WORKSPACE/tests/
   build:
     needs: testing
     runs-on: ubuntu-20.04
-    env:
-      PYTHONPATH: content_analyzer
     steps:
       - uses: actions/checkout@v2
       - name: Install build dependencies
