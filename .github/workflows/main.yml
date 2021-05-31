@@ -39,7 +39,7 @@ jobs:
       - name: Install Python test requirements with pip
         run: sudo pip3 install -r $GITHUB_WORKSPACE/test-requirements.txt
       - name: Install remaining dependencies
-        run: sudo pip3 install -e $GITHUB_WORKSPACE/. #--extra-index-url https://pypi.org/simple --index-url https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/Coalition/leakdetection/pypi/simple
+        run: sudo pip3 install -e $GITHUB_WORKSPACE/. --extra-index-url https://pypi.org/simple --index-url https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/Coalition/leakdetection/pypi/simple
       - name: Export package name
         run: export PACKAGENAME=$(grep name setup.py|cut -d\' -f2)
       - name: Run tests
@@ -56,7 +56,7 @@ jobs:
       - name: Install Python requirements with pip
         run: sudo pip3 install -r $GITHUB_WORKSPACE/requirements.txt
       - name: Install PackageCloud Dependencies
-        run: sudo pip3 install -e $GITHUB_WORKSPACE/. #--extra-index-url https://pypi.org/simple --index-url https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/Coalition/leakdetection/pypi/simple
+        run: sudo pip3 install -e $GITHUB_WORKSPACE/. --extra-index-url https://pypi.org/simple --index-url https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/Coalition/leakdetection/pypi/simple
       - name: Build packages
         run: python3 setup.py bdist_wheel
       - name: Cache artifacts
@@ -87,5 +87,5 @@ jobs:
           for i in $(ls dist/*.whl)
           do
             echo $i
-            curl -X POST https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/api/v1/repos/Coalition/leakdetection/packages.json -F "package[distro_version_id]=166" -F "package[package_file]=dist/$i"
+            #curl -X POST https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/api/v1/repos/Coalition/leakdetection/packages.json -F "package[distro_version_id]=166" -F "package[package_file]=dist/$i"
           done
