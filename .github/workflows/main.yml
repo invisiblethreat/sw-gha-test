@@ -64,7 +64,7 @@ jobs:
       - name: Install PackageCloud Dependencies
         run: sudo pip3 install -e .
       - name: Build packages
-        run: python3 setup.py bdist_wheel
+        run: sudo python3 setup.py bdist_wheel
       - name: Cache artifacts
         uses: actions/cache@v2
         env:
