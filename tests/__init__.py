@@ -1,3 +1,5 @@
+"""ExtFs tests"""
+
 import os.path
 import sys
 
