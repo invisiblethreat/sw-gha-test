@@ -47,7 +47,7 @@ jobs:
       - name: Install Python requirements with pip
         run: sudo pip3 install -r requirements.txt
       - name: Install Python test requirements with pip
-        run: sudo pip3 install -r test-requirements.txt
+        run: sudo pip3 install -r test_requirements.txt
       - name: Install remaining dependencies
         run: sudo pip3 install -e .
       - name: Run tests
