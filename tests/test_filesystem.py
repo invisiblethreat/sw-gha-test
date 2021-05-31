@@ -1,6 +1,6 @@
 """Test basic filesystem operations"""
 
-# pylint: disable=line-too-long,missing-docstring
+# pylint: disable=line-too-long,missing-docstring,consider-using-with
 
 import pytest
 from ExtFs import Filesystem
@@ -20,7 +20,7 @@ def test_file_contents(filesystem_filename):
         file = open(filesystem_filename, "rb")
     except FileNotFoundError:
         # If file isn't found maybe we're running in vscode so prepend "tests/" to path
-        file = open(f"tests/{filesystem_filename}", "rb")
+        file =  open(f"tests/{filesystem_filename}", "rb")
 
     extfs = Filesystem(fileobj=file)
     extfs.run()
