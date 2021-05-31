@@ -37,7 +37,7 @@ jobs:
       - name: Install Python requirements with pip
         run: sudo pip3 install -r $GITHUB_WORKSPACE/requirements.txt
       - name: Install Python test requirements with pip
-        run: sudo pip3 install -r $GITHUB_WORKSPACE/test_requirements.txt
+        run: sudo pip3 install -r $GITHUB_WORKSPACE/test-requirements.txt
       - name: Install remaining dependencies
         run: sudo pip3 install -e $GITHUB_WORKSPACE/. --extra-index-url https://pypi.org/simple --index-url https://{{ secret.$LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/Coalition/leakdetection/pypi/simple
       - name: Export package name
