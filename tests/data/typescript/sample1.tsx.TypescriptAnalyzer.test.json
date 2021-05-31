@@ -1,0 +1,62 @@
+[
+  {
+    "key": "marginLeft",
+    "value": "0.25rem",
+    "start_pos": 681,
+    "end_pos": 688,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 22,
+    "end_column": 29
+  },
+  {
+    "key": "marginRight",
+    "value": "1rem",
+    "start_pos": 713,
+    "end_pos": 717,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 23,
+    "end_column": 27
+  },
+  {
+    "key": "alignItems",
+    "value": "center",
+    "start_pos": 1674,
+    "end_pos": 1680,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 43,
+    "end_column": 49
+  },
+  {
+    "key": "justify",
+    "value": "flex-end",
+    "start_pos": 1691,
+    "end_pos": 1699,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 60,
+    "end_column": 68
+  },
+  {
+    "key": "variant",
+    "value": "outlined",
+    "start_pos": 2091,
+    "end_pos": 2099,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 28,
+    "end_column": 36
+  },
+  {
+    "key": "variant",
+    "value": "body2",
+    "start_pos": 2531,
+    "end_pos": 2536,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 34,
+    "end_column": 39
+  }
+]

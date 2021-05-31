@@ -1,0 +1,582 @@
+[
+  {
+    "key": "AppName",
+    "value": "tokenmama-adx",
+    "start_pos": 11,
+    "end_pos": 24,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 11,
+    "end_column": 24
+  },
+  {
+    "key": "BaseUrl",
+    "value": "https://tokenmama.io",
+    "start_pos": 38,
+    "end_pos": 58,
+    "start_line": 3,
+    "end_line": 3,
+    "start_column": 12,
+    "end_column": 32
+  },
+  {
+    "key": "CDNUrl",
+    "value": "https://tmm-adx.tianxi100.com/",
+    "start_pos": 71,
+    "end_pos": 101,
+    "start_line": 5,
+    "end_line": 5,
+    "start_column": 11,
+    "end_column": 41
+  },
+  {
+    "key": "CreativeCDN",
+    "value": "https://tmm-ad.tianxi100.com",
+    "start_pos": 119,
+    "end_pos": 147,
+    "start_line": 7,
+    "end_line": 7,
+    "start_column": 16,
+    "end_column": 44
+  },
+  {
+    "key": "AdUrl",
+    "value": "https://adx.tokenmama.io/t/",
+    "start_pos": 159,
+    "end_pos": 186,
+    "start_line": 9,
+    "end_line": 9,
+    "start_column": 10,
+    "end_column": 37
+  },
+  {
+    "key": "AdImpUrl",
+    "value": "https://adx.tokenmama.io/i/",
+    "start_pos": 201,
+    "end_pos": 228,
+    "start_line": 11,
+    "end_line": 11,
+    "start_column": 13,
+    "end_column": 40
+  },
+  {
+    "key": "PublisherDomain",
+    "value": "https://media.tokenmama.io",
+    "start_pos": 250,
+    "end_pos": 276,
+    "start_line": 13,
+    "end_line": 13,
+    "start_column": 20,
+    "end_column": 46
+  },
+  {
+    "key": "AdvertiserDomain",
+    "value": "https://adx.tokenmama.io",
+    "start_pos": 299,
+    "end_pos": 323,
+    "start_line": 15,
+    "end_line": 15,
+    "start_column": 21,
+    "end_column": 45
+  },
+  {
+    "key": "CookieDomain",
+    "value": "tokenmama.io",
+    "start_pos": 342,
+    "end_pos": 354,
+    "start_line": 17,
+    "end_line": 17,
+    "start_column": 17,
+    "end_column": 29
+  },
+  {
+    "key": "Port",
+    "value": "8005",
+    "start_pos": 364,
+    "end_pos": 368,
+    "start_line": 19,
+    "end_line": 20,
+    "start_column": 8,
+    "end_column": 0
+  },
+  {
+    "key": "UI",
+    "value": "./ui/dist",
+    "start_pos": 376,
+    "end_pos": 385,
+    "start_line": 21,
+    "end_line": 21,
+    "start_column": 7,
+    "end_column": 16
+  },
+  {
+    "key": "Template",
+    "value": "/opt/adx-templates",
+    "start_pos": 400,
+    "end_pos": 418,
+    "start_line": 23,
+    "end_line": 23,
+    "start_column": 13,
+    "end_column": 31
+  },
+  {
+    "key": "LogPath",
+    "value": "/tmp/tokenmama-adx",
+    "start_pos": 432,
+    "end_pos": 450,
+    "start_line": 25,
+    "end_line": 25,
+    "start_column": 12,
+    "end_column": 30
+  },
+  {
+    "key": "ClickhouseDSN",
+    "value": "tcp://120.55.144.72:10100?username=tm&password=gthSSKD0345",
+    "start_pos": 470,
+    "end_pos": 528,
+    "start_line": 27,
+    "end_line": 27,
+    "start_column": 18,
+    "end_column": 76
+  },
+  {
+    "key": "Geth",
+    "value": "https://mainnet.infura.io/NlT37dDxuLT2tlZNw3It",
+    "start_pos": 539,
+    "end_pos": 585,
+    "start_line": 29,
+    "end_line": 29,
+    "start_column": 9,
+    "end_column": 55
+  },
+  {
+    "key": "SlackToken",
+    "value": "xoxp-340014960567-338241194720-339563622341-94fcb61ce9353b2b0f5a86d4e99580d8",
+    "start_pos": 602,
+    "end_pos": 678,
+    "start_line": 31,
+    "end_line": 31,
+    "start_column": 15,
+    "end_column": 91
+  },
+  {
+    "key": "SlackAdminChannelID",
+    "value": "G9Y7METUG",
+    "start_pos": 704,
+    "end_pos": 713,
+    "start_line": 33,
+    "end_line": 33,
+    "start_column": 24,
+    "end_column": 33
+  },
+  {
+    "key": "TwilioToken",
+    "value": "khWDR6abzUyqzM1WHy9Tfq7P2jRoEhLA",
+    "start_pos": 731,
+    "end_pos": 763,
+    "start_line": 35,
+    "end_line": 35,
+    "start_column": 16,
+    "end_column": 48
+  },
+  {
+    "key": "TelegramBotToken",
+    "value": "547738949:AAFJLOcFctmNEK5wDRDpWP8lE107T7p8XQU",
+    "start_pos": 786,
+    "end_pos": 831,
+    "start_line": 37,
+    "end_line": 37,
+    "start_column": 21,
+    "end_column": 66
+  },
+  {
+    "key": "TelegramBotName",
+    "value": "TokenmeBot",
+    "start_pos": 853,
+    "end_pos": 863,
+    "start_line": 39,
+    "end_line": 39,
+    "start_column": 20,
+    "end_column": 30
+  },
+  {
+    "key": "GeoIP",
+    "value": "/etc/GeoLite2-Country.mmdb",
+    "start_pos": 875,
+    "end_pos": 901,
+    "start_line": 41,
+    "end_line": 41,
+    "start_column": 10,
+    "end_column": 36
+  },
+  {
+    "key": "TokenSalt",
+    "value": "20eefe8d82ba3ca8a417e14a48d24632bc35bbd7",
+    "start_pos": 917,
+    "end_pos": 957,
+    "start_line": 43,
+    "end_line": 43,
+    "start_column": 14,
+    "end_column": 54
+  },
+  {
+    "key": "LinkSalt",
+    "value": "675f6ca23bf616fdb9b06a8d661b4b939f138038",
+    "start_pos": 972,
+    "end_pos": 1012,
+    "start_line": 45,
+    "end_line": 45,
+    "start_column": 13,
+    "end_column": 53
+  },
+  {
+    "key": "SentryDSN",
+    "value": "https://6a576b1028974e93a5e2d29071c0e896:fc012faed5a94a3683f435714e1dc2e1@sentry.io/1163662",
+    "start_pos": 1028,
+    "end_pos": 1119,
+    "start_line": 47,
+    "end_line": 47,
+    "start_column": 14,
+    "end_column": 105
+  },
+  {
+    "key": "AuctionRate",
+    "value": "110.0",
+    "start_pos": 1136,
+    "end_pos": 1141,
+    "start_line": 49,
+    "end_line": 50,
+    "start_column": 15,
+    "end_column": 0
+  },
+  {
+    "key": "AdJSVer",
+    "value": "93c5ef570a12016a58e8",
+    "start_pos": 1154,
+    "end_pos": 1174,
+    "start_line": 51,
+    "end_line": 51,
+    "start_column": 12,
+    "end_column": 32
+  },
+  {
+    "key": "CommissionFee",
+    "value": "4",
+    "start_pos": 1203,
+    "end_pos": 1204,
+    "start_line": 54,
+    "end_line": 55,
+    "start_column": 17,
+    "end_column": 0
+  },
+  {
+    "key": "GasPrice",
+    "value": "4",
+    "start_pos": 1216,
+    "end_pos": 1217,
+    "start_line": 55,
+    "end_line": 56,
+    "start_column": 12,
+    "end_column": 0
+  },
+  {
+    "key": "GasLimit",
+    "value": "210000",
+    "start_pos": 1229,
+    "end_pos": 1235,
+    "start_line": 56,
+    "end_line": 57,
+    "start_column": 12,
+    "end_column": 0
+  },
+  {
+    "key": "DealerContractGasPrice",
+    "value": "5",
+    "start_pos": 1261,
+    "end_pos": 1262,
+    "start_line": 57,
+    "end_line": 58,
+    "start_column": 26,
+    "end_column": 0
+  },
+  {
+    "key": "DealerContractGasLimit",
+    "value": "210000",
+    "start_pos": 1288,
+    "end_pos": 1294,
+    "start_line": 58,
+    "end_line": 59,
+    "start_column": 26,
+    "end_column": 0
+  },
+  {
+    "key": "Host",
+    "value": "tokenme.c4evkvyvqy7m.ap-northeast-1.rds.amazonaws.com:3306",
+    "start_pos": 1312,
+    "end_pos": 1370,
+    "start_line": 61,
+    "end_line": 61,
+    "start_column": 9,
+    "end_column": 67
+  },
+  {
+    "key": "User",
+    "value": "tokenme",
+    "start_pos": 1380,
+    "end_pos": 1387,
+    "start_line": 62,
+    "end_line": 62,
+    "start_column": 9,
+    "end_column": 16
+  },
+  {
+    "key": "Passwd",
+    "value": "tokenmeCRICSUKI2",
+    "start_pos": 1399,
+    "end_pos": 1415,
+    "start_line": 63,
+    "end_line": 63,
+    "start_column": 11,
+    "end_column": 27
+  },
+  {
+    "key": "DB",
+    "value": "adx",
+    "start_pos": 1423,
+    "end_pos": 1426,
+    "start_line": 64,
+    "end_line": 64,
+    "start_column": 7,
+    "end_column": 10
+  },
+  {
+    "key": "Master",
+    "value": "tokenme-001.0gguww.0001.apne1.cache.amazonaws.com:6379",
+    "start_pos": 1447,
+    "end_pos": 1501,
+    "start_line": 67,
+    "end_line": 67,
+    "start_column": 11,
+    "end_column": 65
+  },
+  {
+    "key": "Slave",
+    "value": "tokenme-002.0gguww.0001.apne1.cache.amazonaws.com:6379",
+    "start_pos": 1512,
+    "end_pos": 1566,
+    "start_line": 68,
+    "end_line": 68,
+    "start_column": 10,
+    "end_column": 64
+  },
+  {
+    "key": "AccountId",
+    "value": "744515144782",
+    "start_pos": 1588,
+    "end_pos": 1600,
+    "start_line": 71,
+    "end_line": 71,
+    "start_column": 14,
+    "end_column": 26
+  },
+  {
+    "key": "AK",
+    "value": "AKIAIE6OOGPGR3YUIM2Q",
+    "start_pos": 1608,
+    "end_pos": 1628,
+    "start_line": 72,
+    "end_line": 72,
+    "start_column": 7,
+    "end_column": 27
+  },
+  {
+    "key": "Secret",
+    "value": "QL28r86QR19tfTDqczYwltJ6jhaDlBG0ljpPPXTJ",
+    "start_pos": 1640,
+    "end_pos": 1680,
+    "start_line": 73,
+    "end_line": 73,
+    "start_column": 11,
+    "end_column": 51
+  },
+  {
+    "key": "Region",
+    "value": "ap-northeast-1",
+    "start_pos": 1692,
+    "end_pos": 1706,
+    "start_line": 74,
+    "end_line": 74,
+    "start_column": 11,
+    "end_column": 25
+  },
+  {
+    "key": "EmailQueue",
+    "value": "email",
+    "start_pos": 1722,
+    "end_pos": 1727,
+    "start_line": 75,
+    "end_line": 75,
+    "start_column": 15,
+    "end_column": 20
+  },
+  {
+    "key": "AdClickQueue",
+    "value": "adclick",
+    "start_pos": 1745,
+    "end_pos": 1752,
+    "start_line": 76,
+    "end_line": 76,
+    "start_column": 17,
+    "end_column": 24
+  },
+  {
+    "key": "AdImpQueue",
+    "value": "adimp",
+    "start_pos": 1768,
+    "end_pos": 1773,
+    "start_line": 77,
+    "end_line": 77,
+    "start_column": 15,
+    "end_column": 20
+  },
+  {
+    "key": "AK",
+    "value": "AKIAJTH2WS5SAVV6OR2A",
+    "start_pos": 1787,
+    "end_pos": 1807,
+    "start_line": 80,
+    "end_line": 80,
+    "start_column": 7,
+    "end_column": 27
+  },
+  {
+    "key": "Secret",
+    "value": "PLObJXTPk/SYPIn0dUf6rdiEHeDNJlGRLl/RGST3",
+    "start_pos": 1819,
+    "end_pos": 1859,
+    "start_line": 81,
+    "end_line": 81,
+    "start_column": 11,
+    "end_column": 51
+  },
+  {
+    "key": "AdBucket",
+    "value": "tmm-ads",
+    "start_pos": 1873,
+    "end_pos": 1880,
+    "start_line": 82,
+    "end_line": 82,
+    "start_column": 13,
+    "end_column": 20
+  },
+  {
+    "key": "CreativePath",
+    "value": "creatives",
+    "start_pos": 1898,
+    "end_pos": 1907,
+    "start_line": 83,
+    "end_line": 83,
+    "start_column": 17,
+    "end_column": 26
+  },
+  {
+    "key": "Server",
+    "value": "smtp.sendgrid.net",
+    "start_pos": 1927,
+    "end_pos": 1944,
+    "start_line": 86,
+    "end_line": 86,
+    "start_column": 11,
+    "end_column": 28
+  },
+  {
+    "key": "Port",
+    "value": "587",
+    "start_pos": 1953,
+    "end_pos": 1956,
+    "start_line": 87,
+    "end_line": 88,
+    "start_column": 8,
+    "end_column": 0
+  },
+  {
+    "key": "User",
+    "value": "apikey",
+    "start_pos": 1965,
+    "end_pos": 1971,
+    "start_line": 88,
+    "end_line": 88,
+    "start_column": 9,
+    "end_column": 15
+  },
+  {
+    "key": "Passwd",
+    "value": "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",
+    "start_pos": 1983,
+    "end_pos": 2052,
+    "start_line": 89,
+    "end_line": 89,
+    "start_column": 11,
+    "end_column": 80
+  },
+  {
+    "key": "Server",
+    "value": "smtp.sendgrid.net",
+    "start_pos": 2072,
+    "end_pos": 2089,
+    "start_line": 92,
+    "end_line": 92,
+    "start_column": 11,
+    "end_column": 28
+  },
+  {
+    "key": "Port",
+    "value": "587",
+    "start_pos": 2098,
+    "end_pos": 2101,
+    "start_line": 93,
+    "end_line": 94,
+    "start_column": 8,
+    "end_column": 0
+  },
+  {
+    "key": "User",
+    "value": "apikey",
+    "start_pos": 2110,
+    "end_pos": 2116,
+    "start_line": 94,
+    "end_line": 94,
+    "start_column": 9,
+    "end_column": 15
+  },
+  {
+    "key": "Passwd",
+    "value": "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",
+    "start_pos": 2128,
+    "end_pos": 2197,
+    "start_line": 95,
+    "end_line": 95,
+    "start_column": 11,
+    "end_column": 80
+  },
+  {
+    "key": "Account",
+    "value": "N5692616",
+    "start_pos": 2219,
+    "end_pos": 2227,
+    "start_line": 98,
+    "end_line": 98,
+    "start_column": 12,
+    "end_column": 20
+  },
+  {
+    "key": "Password",
+    "value": "4mNud0qth",
+    "start_pos": 2241,
+    "end_pos": 2250,
+    "start_line": 97,
+    "end_line": 97,
+    "start_column": 13,
+    "end_column": 22
+  }
+]

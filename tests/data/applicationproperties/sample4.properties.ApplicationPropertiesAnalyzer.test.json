@@ -1,0 +1,432 @@
+[
+  {
+    "key": "IS_ZZ",
+    "value": "False",
+    "start_pos": 47,
+    "end_pos": 52,
+    "start_line": 3,
+    "end_line": 4,
+    "start_column": 7,
+    "end_column": 0
+  },
+  {
+    "key": "PROPAGATE_EXCEPTIONS",
+    "value": "True",
+    "start_pos": 74,
+    "end_pos": 78,
+    "start_line": 4,
+    "end_line": 5,
+    "start_column": 22,
+    "end_column": 0
+  },
+  {
+    "key": "SESSION_PERMANENT",
+    "value": "True",
+    "start_pos": 97,
+    "end_pos": 101,
+    "start_line": 5,
+    "end_line": 6,
+    "start_column": 19,
+    "end_column": 0
+  },
+  {
+    "key": "APPLICATION_ROOT",
+    "value": "/usr/local/company/app/www",
+    "start_pos": 119,
+    "end_pos": 145,
+    "start_line": 6,
+    "end_line": 7,
+    "start_column": 18,
+    "end_column": 0
+  },
+  {
+    "key": "BABEL_TRANSLATION_DIRECTORIES",
+    "value": "/usr/local/company/app/translations",
+    "start_pos": 176,
+    "end_pos": 211,
+    "start_line": 7,
+    "end_line": 8,
+    "start_column": 31,
+    "end_column": 0
+  },
+  {
+    "key": "SESSION_COOKIE_NAME",
+    "value": "NTNX_IGW_SESSION",
+    "start_pos": 232,
+    "end_pos": 248,
+    "start_line": 8,
+    "end_line": 9,
+    "start_column": 21,
+    "end_column": 0
+  },
+  {
+    "key": "PERMANENT_SESSION_LIFETIME",
+    "value": "900",
+    "start_pos": 276,
+    "end_pos": 279,
+    "start_line": 9,
+    "end_line": 10,
+    "start_column": 28,
+    "end_column": 0
+  },
+  {
+    "key": "OAUTH2_PROVIDER_TOKEN_EXPIRES_IN",
+    "value": "63072000",
+    "start_pos": 313,
+    "end_pos": 321,
+    "start_line": 10,
+    "end_line": 11,
+    "start_column": 34,
+    "end_column": 0
+  },
+  {
+    "key": "SESSION_COOKIE_HTTPONLY",
+    "value": "True",
+    "start_pos": 346,
+    "end_pos": 350,
+    "start_line": 11,
+    "end_line": 12,
+    "start_column": 25,
+    "end_column": 0
+  },
+  {
+    "key": "SESSION_COOKIE_SECURE",
+    "value": "True",
+    "start_pos": 373,
+    "end_pos": 377,
+    "start_line": 12,
+    "end_line": 13,
+    "start_column": 23,
+    "end_column": 0
+  },
+  {
+    "key": "SESSION_COOKIE_PATH",
+    "value": "/",
+    "start_pos": 398,
+    "end_pos": 399,
+    "start_line": 13,
+    "end_line": 14,
+    "start_column": 21,
+    "end_column": 0
+  },
+  {
+    "key": "MAX_CONTENT_LENGTH",
+    "value": "107374182400",
+    "start_pos": 419,
+    "end_pos": 431,
+    "start_line": 14,
+    "end_line": 15,
+    "start_column": 20,
+    "end_column": 0
+  },
+  {
+    "key": "DEBUG",
+    "value": "True",
+    "start_pos": 438,
+    "end_pos": 442,
+    "start_line": 15,
+    "end_line": 16,
+    "start_column": 7,
+    "end_column": 0
+  },
+  {
+    "key": "ENABLE_APP_STORE",
+    "value": "False",
+    "start_pos": 460,
+    "end_pos": 465,
+    "start_line": 16,
+    "end_line": 17,
+    "start_column": 18,
+    "end_column": 0
+  },
+  {
+    "key": "PRIVATE_KEY_FILE_PATH",
+    "value": "/home/private/gen_server.key",
+    "start_pos": 488,
+    "end_pos": 516,
+    "start_line": 17,
+    "end_line": 18,
+    "start_column": 23,
+    "end_column": 0
+  },
+  {
+    "key": "DOCKER_HUB_PUBLIC_REGISTRY_UUID",
+    "value": "0ac1caee-4ff4-457a-a8bb-d2840a3a32f4",
+    "start_pos": 549,
+    "end_pos": 585,
+    "start_line": 18,
+    "end_line": 19,
+    "start_column": 33,
+    "end_column": 0
+  },
+  {
+    "key": "UUID_SALT",
+    "value": "31195322-ca6c-435c-8833-9903b47b18d5",
+    "start_pos": 596,
+    "end_pos": 632,
+    "start_line": 19,
+    "end_line": 20,
+    "start_column": 11,
+    "end_column": 0
+  },
+  {
+    "key": "IDP_CLIENT_ID",
+    "value": "bN_t0_BRGt9FhOcfElhyk_W_DVMa",
+    "start_pos": 647,
+    "end_pos": 675,
+    "start_line": 20,
+    "end_line": 21,
+    "start_column": 15,
+    "end_column": 0
+  },
+  {
+    "key": "IDP_CLIENT_SECRET",
+    "value": "32950_QpEXy_ZaeAnJw6fhlczmka",
+    "start_pos": 694,
+    "end_pos": 722,
+    "start_line": 21,
+    "end_line": 22,
+    "start_column": 19,
+    "end_column": 0
+  },
+  {
+    "key": "SERVICE_PROVIDER_COMPANY",
+    "value": "zz.company.com",
+    "start_pos": 748,
+    "end_pos": 762,
+    "start_line": 22,
+    "end_line": 23,
+    "start_column": 26,
+    "end_column": 0
+  },
+  {
+    "key": "LOCAL_AZ_NAME",
+    "value": "Local AZ",
+    "start_pos": 777,
+    "end_pos": 785,
+    "start_line": 23,
+    "end_line": 24,
+    "start_column": 15,
+    "end_column": 0
+  },
+  {
+    "key": "OKTA_ENABLED",
+    "value": "True",
+    "start_pos": 813,
+    "end_pos": 817,
+    "start_line": 25,
+    "end_line": 26,
+    "start_column": 14,
+    "end_column": 0
+  },
+  {
+    "key": "OKTA_SSL_VERIFY",
+    "value": "False",
+    "start_pos": 834,
+    "end_pos": 839,
+    "start_line": 26,
+    "end_line": 27,
+    "start_column": 17,
+    "end_column": 0
+  },
+  {
+    "key": "OKTA_BASE_URL",
+    "value": "https://company.okta.com",
+    "start_pos": 854,
+    "end_pos": 878,
+    "start_line": 27,
+    "end_line": 28,
+    "start_column": 15,
+    "end_column": 0
+  },
+  {
+    "key": "OKTA_CLIENT_ID",
+    "value": "RI3BXL0fOEVDiQU6gKWJ",
+    "start_pos": 894,
+    "end_pos": 914,
+    "start_line": 28,
+    "end_line": 29,
+    "start_column": 16,
+    "end_column": 0
+  },
+  {
+    "key": "OKTA_CLIENT_SECRET",
+    "value": "aqrP0GR8gx2jT8N2m3jdRP1YDbvnpZ_5P9P6QhdC",
+    "start_pos": 934,
+    "end_pos": 974,
+    "start_line": 29,
+    "end_line": 30,
+    "start_column": 20,
+    "end_column": 0
+  },
+  {
+    "key": "OKTA_DISCOVERY_PATH",
+    "value": ".well-known/openid-configuration",
+    "start_pos": 995,
+    "end_pos": 1027,
+    "start_line": 30,
+    "end_line": 31,
+    "start_column": 21,
+    "end_column": 0
+  },
+  {
+    "key": "OKTA_LEEWAY_IN_MINUTES",
+    "value": "5",
+    "start_pos": 1051,
+    "end_pos": 1052,
+    "start_line": 31,
+    "end_line": 32,
+    "start_column": 24,
+    "end_column": 0
+  },
+  {
+    "key": "OKTA_REDIRECT_ENDPOINT",
+    "value": "okta/callback",
+    "start_pos": 1076,
+    "end_pos": 1089,
+    "start_line": 32,
+    "end_line": 33,
+    "start_column": 24,
+    "end_column": 0
+  },
+  {
+    "key": "OKTA_LOG_TOKEN",
+    "value": "False",
+    "start_pos": 1105,
+    "end_pos": 1110,
+    "start_line": 33,
+    "end_line": 34,
+    "start_column": 16,
+    "end_column": 0
+  },
+  {
+    "key": "REDIRECT_IP",
+    "value": "redirect.company.com",
+    "start_pos": 1123,
+    "end_pos": 1143,
+    "start_line": 34,
+    "end_line": 35,
+    "start_column": 13,
+    "end_column": 0
+  },
+  {
+    "key": "REDIRECT_PORT",
+    "value": "9440",
+    "start_pos": 1158,
+    "end_pos": 1162,
+    "start_line": 35,
+    "end_line": 36,
+    "start_column": 15,
+    "end_column": 0
+  },
+  {
+    "key": "IDP_IP",
+    "value": "idp.company.com",
+    "start_pos": 1178,
+    "end_pos": 1193,
+    "start_line": 37,
+    "end_line": 38,
+    "start_column": 8,
+    "end_column": 0
+  },
+  {
+    "key": "IDP_LOGOUT",
+    "value": "https://portal.company.com/#/page/logout",
+    "start_pos": 1205,
+    "end_pos": 1245,
+    "start_line": 38,
+    "end_line": 39,
+    "start_column": 12,
+    "end_column": 0
+  },
+  {
+    "key": "IDP_CERT_FILE_PATH",
+    "value": "/usr/local/company/app/certs/dev_company/server.cert",
+    "start_pos": 1265,
+    "end_pos": 1317,
+    "start_line": 39,
+    "end_line": 40,
+    "start_column": 20,
+    "end_column": 0
+  },
+  {
+    "key": "IDP_CLIENT_ID",
+    "value": "EwK4YJftwVADqxm7SuUtazf1SUIb",
+    "start_pos": 1332,
+    "end_pos": 1360,
+    "start_line": 40,
+    "end_line": 41,
+    "start_column": 15,
+    "end_column": 0
+  },
+  {
+    "key": "IDP_CLIENT_SECRET",
+    "value": "32950_QpEXy_ZaeAnJw6fhlczkjp",
+    "start_pos": 1379,
+    "end_pos": 1407,
+    "start_line": 41,
+    "end_line": 42,
+    "start_column": 19,
+    "end_column": 0
+  },
+  {
+    "key": "IDP_PAIRING_API",
+    "value": "https://portal.company.com/api/v2/pairing",
+    "start_pos": 1467,
+    "end_pos": 1508,
+    "start_line": 43,
+    "end_line": 44,
+    "start_column": 17,
+    "end_column": 0
+  },
+  {
+    "key": "PORTAL_COMPANY_DOMAIN",
+    "value": "portal.company.com",
+    "start_pos": 1531,
+    "end_pos": 1549,
+    "start_line": 44,
+    "end_line": 45,
+    "start_column": 23,
+    "end_column": 0
+  },
+  {
+    "key": "IDP_SUSPENDED_URL",
+    "value": "https://portal.company.com/#page/error/suspended",
+    "start_pos": 1568,
+    "end_pos": 1616,
+    "start_line": 45,
+    "end_line": 46,
+    "start_column": 19,
+    "end_column": 0
+  },
+  {
+    "key": "URL",
+    "value": "pc1.zzdemo.com",
+    "start_pos": 1629,
+    "end_pos": 1643,
+    "start_line": 47,
+    "end_line": 48,
+    "start_column": 5,
+    "end_column": 0
+  },
+  {
+    "key": "VIP_OUT",
+    "value": "10.4.87.73",
+    "start_pos": 1652,
+    "end_pos": 1662,
+    "start_line": 48,
+    "end_line": 47,
+    "start_column": 9,
+    "end_column": 0
+  },
+  {
+    "key": "VIP_IN",
+    "value": "10.4.78.37",
+    "start_pos": 1670,
+    "end_pos": 1680,
+    "start_line": 47,
+    "end_line": 47,
+    "start_column": 8,
+    "end_column": 18
+  }
+]

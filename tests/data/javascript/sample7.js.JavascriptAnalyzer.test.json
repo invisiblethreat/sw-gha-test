@@ -1,0 +1,72 @@
+[
+  {
+    "key": "baseUrl",
+    "value": "https://qa.product.io",
+    "start_pos": 343,
+    "end_pos": 363,
+    "start_line": 9,
+    "end_line": 9,
+    "start_column": 14,
+    "end_column": 34
+  },
+  {
+    "key": "sauceUser",
+    "value": "productdev",
+    "start_pos": 384,
+    "end_pos": 393,
+    "start_line": 11,
+    "end_line": 11,
+    "start_column": 16,
+    "end_column": 25
+  },
+  {
+    "key": "sauceKey",
+    "value": "0017e418-d36e-4b3b-bac7-b9527dfb42ff",
+    "start_pos": 412,
+    "end_pos": 447,
+    "start_line": 12,
+    "end_line": 12,
+    "start_column": 15,
+    "end_column": 50
+  },
+  {
+    "key": "browserName",
+    "value": "chrome",
+    "start_pos": 871,
+    "end_pos": 876,
+    "start_line": 27,
+    "end_line": 27,
+    "start_column": 22,
+    "end_column": 27
+  },
+  {
+    "key": "version",
+    "value": "latest",
+    "start_pos": 898,
+    "end_pos": 903,
+    "start_line": 28,
+    "end_line": 28,
+    "start_column": 18,
+    "end_column": 23
+  },
+  {
+    "key": "browserName",
+    "value": "firefox",
+    "start_pos": 984,
+    "end_pos": 990,
+    "start_line": 31,
+    "end_line": 31,
+    "start_column": 22,
+    "end_column": 28
+  },
+  {
+    "key": "version",
+    "value": "52",
+    "start_pos": 1012,
+    "end_pos": 1013,
+    "start_line": 32,
+    "end_line": 32,
+    "start_column": 18,
+    "end_column": 19
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "key": "checkParameterIsNotNull",
+    "value": "accessToken",
+    "start_pos": 2550,
+    "end_pos": 2560,
+    "start_line": 37,
+    "end_line": 37,
+    "start_column": 73,
+    "end_column": 83
+  },
+  {
+    "key": "checkParameterIsNotNull",
+    "value": "authentication",
+    "start_pos": 2641,
+    "end_pos": 2654,
+    "start_line": 38,
+    "end_line": 38,
+    "start_column": 76,
+    "end_column": 89
+  },
+  {
+    "key": "checkExpressionValueIsNotNull",
+    "value": "authentication.name",
+    "start_pos": 2783,
+    "end_pos": 2801,
+    "start_line": 40,
+    "end_line": 40,
+    "start_column": 74,
+    "end_column": 92
+  },
+  {
+    "key": "string2",
+    "value": "firstName",
+    "start_pos": 3006,
+    "end_pos": 3014,
+    "start_line": 44,
+    "end_line": 44,
+    "start_column": 26,
+    "end_column": 34
+  },
+  {
+    "key": "string3",
+    "value": "lastName",
+    "start_pos": 3155,
+    "end_pos": 3162,
+    "start_line": 48,
+    "end_line": 48,
+    "start_column": 19,
+    "end_column": 26
+  },
+  {
+    "key": "checkParameterIsNotNull",
+    "value": "userDetailsService",
+    "start_pos": 3812,
+    "end_pos": 3829,
+    "start_line": 64,
+    "end_line": 64,
+    "start_column": 80,
+    "end_column": 97
+  }
+]

@@ -1,0 +1,602 @@
+[
+  {
+    "key": "class_exists",
+    "value": "DOMDocument",
+    "start_pos": 2767,
+    "end_pos": 2778,
+    "start_line": 75,
+    "end_line": 75,
+    "start_column": 20,
+    "end_column": 31
+  },
+  {
+    "key": "set_error_handler",
+    "value": "SimplePie_Misc",
+    "start_pos": 2850,
+    "end_pos": 2864,
+    "start_line": 79,
+    "end_line": 79,
+    "start_column": 28,
+    "end_column": 42
+  },
+  {
+    "key": "set_error_handler",
+    "value": "silence_errors",
+    "start_pos": 2868,
+    "end_pos": 2882,
+    "start_line": 79,
+    "end_line": 79,
+    "start_column": 46,
+    "end_column": 60
+  },
+  {
+    "key": "$sniffer",
+    "value": "Content_Type_Sniffer",
+    "start_pos": 3337,
+    "end_pos": 3357,
+    "start_line": 103,
+    "end_line": 103,
+    "start_column": 39,
+    "end_column": 59
+  },
+  {
+    "key": "$sniffer",
+    "value": "Content_Type_Sniffer",
+    "start_pos": 4471,
+    "end_pos": 4491,
+    "start_line": 149,
+    "end_line": 149,
+    "start_column": 39,
+    "end_column": 59
+  },
+  {
+    "key": "in_array",
+    "value": "application/rss+xml",
+    "start_pos": 4578,
+    "end_pos": 4597,
+    "start_line": 151,
+    "end_line": 151,
+    "start_column": 33,
+    "end_column": 52
+  },
+  {
+    "key": "in_array",
+    "value": "application/rdf+xml",
+    "start_pos": 4601,
+    "end_pos": 4620,
+    "start_line": 151,
+    "end_line": 151,
+    "start_column": 56,
+    "end_column": 75
+  },
+  {
+    "key": "in_array",
+    "value": "text/rdf",
+    "start_pos": 4624,
+    "end_pos": 4632,
+    "start_line": 151,
+    "end_line": 151,
+    "start_column": 79,
+    "end_column": 87
+  },
+  {
+    "key": "in_array",
+    "value": "application/atom+xml",
+    "start_pos": 4636,
+    "end_pos": 4656,
+    "start_line": 151,
+    "end_line": 151,
+    "start_column": 91,
+    "end_column": 111
+  },
+  {
+    "key": "in_array",
+    "value": "text/xml",
+    "start_pos": 4660,
+    "end_pos": 4668,
+    "start_line": 151,
+    "end_line": 151,
+    "start_column": 115,
+    "end_column": 123
+  },
+  {
+    "key": "in_array",
+    "value": "application/xml",
+    "start_pos": 4672,
+    "end_pos": 4687,
+    "start_line": 151,
+    "end_line": 151,
+    "start_column": 127,
+    "end_column": 142
+  },
+  {
+    "key": "$sniffed",
+    "value": "DOMDocument not found, unable to use locator",
+    "start_pos": 4970,
+    "end_pos": 5014,
+    "start_line": 174,
+    "end_line": 174,
+    "start_column": 34,
+    "end_column": 78
+  },
+  {
+    "key": "$elements",
+    "value": "base",
+    "start_pos": 5143,
+    "end_pos": 5147,
+    "start_line": 178,
+    "end_line": 178,
+    "start_column": 48,
+    "end_column": 52
+  },
+  {
+    "key": "$base",
+    "value": "Misc",
+    "start_pos": 5268,
+    "end_pos": 5272,
+    "start_line": 183,
+    "end_line": 183,
+    "start_column": 35,
+    "end_column": 39
+  },
+  {
+    "key": "trim",
+    "value": "href",
+    "start_pos": 5328,
+    "end_pos": 5332,
+    "start_line": 183,
+    "end_line": 183,
+    "start_column": 95,
+    "end_column": 99
+  },
+  {
+    "key": "method_exists",
+    "value": "getLineNo",
+    "start_pos": 5486,
+    "end_pos": 5495,
+    "start_line": 189,
+    "end_line": 189,
+    "start_column": 52,
+    "end_column": 61
+  },
+  {
+    "key": "array_merge",
+    "value": "link",
+    "start_pos": 5688,
+    "end_pos": 5692,
+    "start_line": 199,
+    "end_line": 199,
+    "start_column": 62,
+    "end_column": 66
+  },
+  {
+    "key": "array_merge",
+    "value": "a",
+    "start_pos": 5774,
+    "end_pos": 5775,
+    "start_line": 200,
+    "end_line": 200,
+    "start_column": 62,
+    "end_column": 63
+  },
+  {
+    "key": "array_merge",
+    "value": "area",
+    "start_pos": 5857,
+    "end_pos": 5861,
+    "start_line": 201,
+    "end_line": 201,
+    "start_column": 62,
+    "end_column": 66
+  },
+  {
+    "key": "$feeds",
+    "value": "DOMDocument not found, unable to use locator",
+    "start_pos": 6113,
+    "end_pos": 6157,
+    "start_line": 217,
+    "end_line": 217,
+    "start_column": 34,
+    "end_column": 78
+  },
+  {
+    "key": "$links",
+    "value": "href",
+    "start_pos": 6357,
+    "end_pos": 6361,
+    "start_line": 227,
+    "end_line": 227,
+    "start_column": 28,
+    "end_column": 32
+  },
+  {
+    "key": "array_unique",
+    "value": "Misc",
+    "start_pos": 6447,
+    "end_pos": 6451,
+    "start_line": 229,
+    "end_line": 229,
+    "start_column": 47,
+    "end_column": 51
+  },
+  {
+    "key": "array_unique",
+    "value": "space_seperated_tokens",
+    "start_pos": 6455,
+    "end_pos": 6477,
+    "start_line": 229,
+    "end_line": 229,
+    "start_column": 55,
+    "end_column": 77
+  },
+  {
+    "key": "strtolower",
+    "value": "rel",
+    "start_pos": 6518,
+    "end_pos": 6521,
+    "start_line": 229,
+    "end_line": 229,
+    "start_column": 118,
+    "end_column": 121
+  },
+  {
+    "key": "method_exists",
+    "value": "getLineNo",
+    "start_pos": 6563,
+    "end_pos": 6572,
+    "start_line": 230,
+    "end_line": 230,
+    "start_column": 34,
+    "end_column": 43
+  },
+  {
+    "key": "$href",
+    "value": "Misc",
+    "start_pos": 6682,
+    "end_pos": 6686,
+    "start_line": 234,
+    "end_line": 234,
+    "start_column": 36,
+    "end_column": 40
+  },
+  {
+    "key": "trim",
+    "value": "href",
+    "start_pos": 6739,
+    "end_pos": 6743,
+    "start_line": 234,
+    "end_line": 234,
+    "start_column": 93,
+    "end_column": 97
+  },
+  {
+    "key": "$href",
+    "value": "Misc",
+    "start_pos": 6820,
+    "end_pos": 6824,
+    "start_line": 238,
+    "end_line": 238,
+    "start_column": 36,
+    "end_column": 40
+  },
+  {
+    "key": "trim",
+    "value": "href",
+    "start_pos": 6877,
+    "end_pos": 6881,
+    "start_line": 238,
+    "end_line": 238,
+    "start_column": 93,
+    "end_column": 97
+  },
+  {
+    "key": "in_array",
+    "value": "feed",
+    "start_pos": 7010,
+    "end_pos": 7014,
+    "start_line": 245,
+    "end_line": 245,
+    "start_column": 45,
+    "end_column": 49
+  },
+  {
+    "key": "in_array",
+    "value": "alternate",
+    "start_pos": 7037,
+    "end_pos": 7046,
+    "start_line": 245,
+    "end_line": 245,
+    "start_column": 72,
+    "end_column": 81
+  },
+  {
+    "key": "in_array",
+    "value": "stylesheet",
+    "start_pos": 7069,
+    "end_pos": 7079,
+    "start_line": 245,
+    "end_line": 245,
+    "start_column": 104,
+    "end_column": 114
+  },
+  {
+    "key": "strtolower",
+    "value": "Misc",
+    "start_pos": 7165,
+    "end_pos": 7169,
+    "start_line": 245,
+    "end_line": 245,
+    "start_column": 200,
+    "end_column": 204
+  },
+  {
+    "key": "strtolower",
+    "value": "parse_mime",
+    "start_pos": 7173,
+    "end_pos": 7183,
+    "start_line": 245,
+    "end_line": 245,
+    "start_column": 208,
+    "end_column": 218
+  },
+  {
+    "key": "strtolower",
+    "value": "type",
+    "start_pos": 7213,
+    "end_pos": 7217,
+    "start_line": 245,
+    "end_line": 245,
+    "start_column": 248,
+    "end_column": 252
+  },
+  {
+    "key": "in_array",
+    "value": "application/rss+xml",
+    "start_pos": 7231,
+    "end_pos": 7250,
+    "start_line": 245,
+    "end_line": 245,
+    "start_column": 266,
+    "end_column": 285
+  },
+  {
+    "key": "in_array",
+    "value": "application/atom+xml",
+    "start_pos": 7254,
+    "end_pos": 7274,
+    "start_line": 245,
+    "end_line": 245,
+    "start_column": 289,
+    "end_column": 309
+  },
+  {
+    "key": "$headers",
+    "value": "Accept",
+    "start_pos": 7370,
+    "end_pos": 7376,
+    "start_line": 249,
+    "end_line": 249,
+    "start_column": 7,
+    "end_column": 13
+  },
+  {
+    "key": "$feed",
+    "value": "File",
+    "start_pos": 7616,
+    "end_pos": 7620,
+    "start_line": 251,
+    "end_line": 251,
+    "start_column": 38,
+    "end_column": 42
+  },
+  {
+    "key": "$links",
+    "value": "a",
+    "start_pos": 8175,
+    "end_pos": 8176,
+    "start_line": 271,
+    "end_line": 271,
+    "start_column": 45,
+    "end_column": 46
+  },
+  {
+    "key": "trim",
+    "value": "href",
+    "start_pos": 8291,
+    "end_pos": 8295,
+    "start_line": 276,
+    "end_line": 276,
+    "start_column": 38,
+    "end_column": 42
+  },
+  {
+    "key": "$parsed",
+    "value": "Misc",
+    "start_pos": 8337,
+    "end_pos": 8341,
+    "start_line": 277,
+    "end_line": 277,
+    "start_column": 37,
+    "end_column": 41
+  },
+  {
+    "key": "preg_match",
+    "value": "/^(http(s)|feed)?$/i",
+    "start_pos": 8420,
+    "end_pos": 8440,
+    "start_line": 278,
+    "end_line": 278,
+    "start_column": 48,
+    "end_column": 68
+  },
+  {
+    "key": "preg_match",
+    "value": "scheme",
+    "start_pos": 8452,
+    "end_pos": 8458,
+    "start_line": 278,
+    "end_line": 278,
+    "start_column": 80,
+    "end_column": 86
+  },
+  {
+    "key": "method_exists",
+    "value": "getLineNo",
+    "start_pos": 8500,
+    "end_pos": 8509,
+    "start_line": 280,
+    "end_line": 280,
+    "start_column": 31,
+    "end_column": 40
+  },
+  {
+    "key": "$href",
+    "value": "Misc",
+    "start_pos": 8602,
+    "end_pos": 8606,
+    "start_line": 282,
+    "end_line": 282,
+    "start_column": 37,
+    "end_column": 41
+  },
+  {
+    "key": "trim",
+    "value": "href",
+    "start_pos": 8659,
+    "end_pos": 8663,
+    "start_line": 282,
+    "end_line": 282,
+    "start_column": 94,
+    "end_column": 98
+  },
+  {
+    "key": "$href",
+    "value": "Misc",
+    "start_pos": 8744,
+    "end_pos": 8748,
+    "start_line": 286,
+    "end_line": 286,
+    "start_column": 37,
+    "end_column": 41
+  },
+  {
+    "key": "trim",
+    "value": "href",
+    "start_pos": 8801,
+    "end_pos": 8805,
+    "start_line": 286,
+    "end_line": 286,
+    "start_column": 94,
+    "end_column": 98
+  },
+  {
+    "key": "$current",
+    "value": "Misc",
+    "start_pos": 8933,
+    "end_pos": 8937,
+    "start_line": 293,
+    "end_line": 293,
+    "start_column": 39,
+    "end_column": 43
+  },
+  {
+    "key": "strrchr",
+    "value": ".",
+    "start_pos": 9585,
+    "end_pos": 9586,
+    "start_line": 323,
+    "end_line": 323,
+    "start_column": 44,
+    "end_column": 45
+  },
+  {
+    "key": "in_array",
+    "value": ".rss",
+    "start_pos": 9598,
+    "end_pos": 9602,
+    "start_line": 323,
+    "end_line": 323,
+    "start_column": 57,
+    "end_column": 61
+  },
+  {
+    "key": "in_array",
+    "value": ".rdf",
+    "start_pos": 9606,
+    "end_pos": 9610,
+    "start_line": 323,
+    "end_line": 323,
+    "start_column": 65,
+    "end_column": 69
+  },
+  {
+    "key": "in_array",
+    "value": ".atom",
+    "start_pos": 9614,
+    "end_pos": 9619,
+    "start_line": 323,
+    "end_line": 323,
+    "start_column": 73,
+    "end_column": 78
+  },
+  {
+    "key": "in_array",
+    "value": ".xml",
+    "start_pos": 9623,
+    "end_pos": 9627,
+    "start_line": 323,
+    "end_line": 323,
+    "start_column": 82,
+    "end_column": 86
+  },
+  {
+    "key": "$headers",
+    "value": "Accept",
+    "start_pos": 9694,
+    "end_pos": 9700,
+    "start_line": 328,
+    "end_line": 328,
+    "start_column": 6,
+    "end_column": 12
+  },
+  {
+    "key": "$feed",
+    "value": "File",
+    "start_pos": 9938,
+    "end_pos": 9942,
+    "start_line": 330,
+    "end_line": 330,
+    "start_column": 37,
+    "end_column": 41
+  },
+  {
+    "key": "preg_match",
+    "value": "/(rss|rdf|atom|xml)/i",
+    "start_pos": 10480,
+    "end_pos": 10501,
+    "start_line": 352,
+    "end_line": 352,
+    "start_column": 19,
+    "end_column": 40
+  },
+  {
+    "key": "$headers",
+    "value": "Accept",
+    "start_pos": 10574,
+    "end_pos": 10580,
+    "start_line": 356,
+    "end_line": 356,
+    "start_column": 6,
+    "end_column": 12
+  },
+  {
+    "key": "$feed",
+    "value": "File",
+    "start_pos": 10818,
+    "end_pos": 10822,
+    "start_line": 358,
+    "end_line": 358,
+    "start_column": 37,
+    "end_column": 41
+  }
+]

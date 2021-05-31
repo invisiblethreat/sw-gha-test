@@ -1,0 +1,72 @@
+[
+  {
+    "key": "ROLES_KEY",
+    "value": "Roles",
+    "start_pos": 401,
+    "end_pos": 406,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 42,
+    "end_column": 47
+  },
+  {
+    "key": "BASE_URL_KEY",
+    "value": "Base_URL",
+    "start_pos": 453,
+    "end_pos": 461,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 45,
+    "end_column": 53
+  },
+  {
+    "key": "BROWSER_KEY",
+    "value": "Browser",
+    "start_pos": 507,
+    "end_pos": 514,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 44,
+    "end_column": 51
+  },
+  {
+    "key": "REMOTE_KEY",
+    "value": "Remote",
+    "start_pos": 559,
+    "end_pos": 565,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 43,
+    "end_column": 49
+  },
+  {
+    "key": "SLEEP_KEY",
+    "value": "Sleep",
+    "start_pos": 609,
+    "end_pos": 614,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 42,
+    "end_column": 47
+  },
+  {
+    "key": "LOGGER_KEY",
+    "value": "Logger",
+    "start_pos": 659,
+    "end_pos": 665,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 43,
+    "end_column": 49
+  },
+  {
+    "key": "GetConfig",
+    "value": "Thing",
+    "start_pos": 1217,
+    "end_pos": 1222,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 31,
+    "end_column": 36
+  }
+]

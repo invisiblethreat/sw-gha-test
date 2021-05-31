@@ -1,0 +1,72 @@
+[
+  {
+    "key": "define",
+    "value": "FIREBASE_API_KEY",
+    "start_pos": 341,
+    "end_pos": 357,
+    "start_line": 6,
+    "end_line": 6,
+    "start_column": 8,
+    "end_column": 24
+  },
+  {
+    "key": "define",
+    "value": "AIzaSyBizjmHYM0HRmWgdzS5UT2lOGxljBDgmgc",
+    "start_pos": 361,
+    "end_pos": 400,
+    "start_line": 6,
+    "end_line": 6,
+    "start_column": 28,
+    "end_column": 67
+  },
+  {
+    "key": "define",
+    "value": "FIREBASE_URL",
+    "start_pos": 412,
+    "end_pos": 424,
+    "start_line": 7,
+    "end_line": 7,
+    "start_column": 8,
+    "end_column": 20
+  },
+  {
+    "key": "define",
+    "value": "https://fcm.googleapis.com/fcm/send",
+    "start_pos": 428,
+    "end_pos": 463,
+    "start_line": 7,
+    "end_line": 7,
+    "start_column": 24,
+    "end_column": 59
+  },
+  {
+    "key": "$_body",
+    "value": "to",
+    "start_pos": 1308,
+    "end_pos": 1310,
+    "start_line": 36,
+    "end_line": 36,
+    "start_column": 9,
+    "end_column": 11
+  },
+  {
+    "key": "curl_setopt_array",
+    "value": "Authorization: Key=",
+    "start_pos": 1997,
+    "end_pos": 2016,
+    "start_line": 64,
+    "end_line": 64,
+    "start_column": 13,
+    "end_column": 32
+  },
+  {
+    "key": "curl_setopt_array",
+    "value": "Content-Type: application/json",
+    "start_pos": 2049,
+    "end_pos": 2079,
+    "start_line": 65,
+    "end_line": 65,
+    "start_column": 13,
+    "end_column": 43
+  }
+]

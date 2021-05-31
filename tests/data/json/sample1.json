@@ -1,0 +1,328 @@
+{
+    "y3ss1ry3sthr33b4g5fu11": {
+        "key": "y3ss1ry3sthr33b4g5fu11",
+        "value": {
+            "regions": {
+                "ap-northeast-1": {
+                    "amis": {
+                        "ami-2c8f9c4b": "EOS-4.18.0FX-VEOS-e068c3d2-ec0c-4eb0-8f96-a74739def842-ami-88b40e9e.4",
+                        "ami-3234de4d": "EOS-4.20.5F-BYOL-507803fc-f6ff-4a36-9720-d708ef9f9d61-ami-9563d0ea.4",
+                        "ami-ef69db89": "EOS-4.20.1FX-Virtual-Router-507803fc-f6ff-4a36-9720-d708ef9f9d61-ami-3936b843.4"
+                    },
+                    "elasticIps": {},
+                    "keyPairNames": ["ap-ne-1-demo"],
+                    "vpcs": {
+                        "vpc-6ba5030f": {
+                            "availabilityZones": {
+                                "ap-northeast-1a": {
+                                    "subnets": {
+                                        "subnet-78d6b50e": {
+                                            "availableIpAddressCount": 4091,
+                                            "cidrBlock": "172.31.16.0/20",
+                                            "networkInterfaces": {}
+                                        }
+                                    }
+                                },
+                                "ap-northeast-1c": {
+                                    "subnets": {
+                                        "subnet-ddbe1585": {
+                                            "availableIpAddressCount": 4091,
+                                            "cidrBlock": "172.31.0.0/20",
+                                            "networkInterfaces": {}
+                                        }
+                                    }
+                                },
+                                "ap-northeast-1d": {
+                                    "subnets": {
+                                        "subnet-7defae55": {
+                                            "availableIpAddressCount": 4091,
+                                            "cidrBlock": "172.31.32.0/20",
+                                            "networkInterfaces": {}
+                                        }
+                                    }
+                                }
+                            },
+                            "cidrBlock": "172.31.0.0/16",
+                            "securityGroups": {
+                                "sg-38129d5f": "default"
+                            }
+                        }
+                    }
+                },
+                "ap-northeast-2": {
+                    "amis": {
+                        "ami-c09235ae": "EOS-4.20.1FX-Virtual-Router-507803fc-f6ff-4a36-9720-d708ef9f9d61-ami-3936b843.4",
+                        "ami-c5429dab": "EOS-4.18.0FX-VEOS-e068c3d2-ec0c-4eb0-8f96-a74739def842-ami-88b40e9e.4",
+                        "ami-f9f45c97": "EOS-4.20.5F-BYOL-507803fc-f6ff-4a36-9720-d708ef9f9d61-ami-9563d0ea.4"
+                    },
+                    "elasticIps": {},
+                    "keyPairNames": [],
+                    "vpcs": {
+                        "vpc-38c0b851": {
+                            "availabilityZones": {
+                                "ap-northeast-2a": {
+                                    "subnets": {
+                                        "subnet-88db93e1": {
+                                            "availableIpAddressCount": 4091,
+                                            "cidrBlock": "172.31.0.0/20",
+                                            "networkInterfaces": {}
+                                        }
+                                    }
+                                },
+                                "ap-northeast-2c": {
+                                    "subnets": {
+                                        "subnet-d8aa2795": {
+                                            "availableIpAddressCount": 4091,
+                                            "cidrBlock": "172.31.16.0/20",
+                                            "networkInterfaces": {}
+                                        }
+                                    }
+                                }
+                            },
+                            "cidrBlock": "172.31.0.0/16",
+                            "securityGroups": {
+                                "sg-970be9ff": "default"
+                            }
+                        }
+                    }
+                },
+                "ap-south-1": {
+                    "amis": {
+                        "ami-a7a3ddc8": "EOS-4.18.0FX-VEOS-e068c3d2-ec0c-4eb0-8f96-a74739def842-ami-88b40e9e.4",
+                        "ami-bcd897d3": "EOS-4.20.1FX-Virtual-Router-507803fc-f6ff-4a36-9720-d708ef9f9d61-ami-3936b843.4",
+                        "ami-c3280aac": "EOS-4.20.5F-BYOL-507803fc-f6ff-4a36-9720-d708ef9f9d61-ami-9563d0ea.4"
+                    },
+                    "elasticIps": {},
+                    "keyPairNames": ["ajitesh"],
+                    "vpcs": {
+                        "vpc-22fa484b": {
+                            "availabilityZones": {
+                                "ap-south-1a": {
+                                    "subnets": {
+                                        "subnet-e9289480": {
+                                            "availableIpAddressCount": 4091,
+                                            "cidrBlock": "172.31.16.0/20",
+                                            "networkInterfaces": {}
+                                        }
+                                    }
+                                },
+                                "ap-south-1b": {
+                                    "subnets": {
+                                        "subnet-2dc93460": {
+                                            "availableIpAddressCount": 4091,
+                                            "cidrBlock": "172.31.0.0/20",
+                                            "networkInterfaces": {}
+                                        }
+                                    }
+                                }
+                            },
+                            "cidrBlock": "172.31.0.0/16",
+                            "securityGroups": {
+                                "sg-11adc178": "default",
+                                "sg-1b66b371": "Company vEOS Router -BYOL--EOS-4-20-5F-BYOL-AutogenByAWSMP-",
+                                "sg-2614c74c": "Company vEOS Router -BYOL--EOS-4-20-5F-BYOL-AutogenByAWSMP-5",
+                                "sg-4586522f": "Company vEOS Router -BYOL--EOS-4-20-5F-BYOL-AutogenByAWSMP-1",
+                                "sg-7826f112": "Company vEOS Router -BYOL--EOS-4-20-5F-BYOL-AutogenByAWSMP-2"
+                            }
+                        },
+                        "vpc-23e1b24b": {
+                            "availabilityZones": {
+                                "ap-south-1a": {
+                                    "subnets": {
+                                        "subnet-01bac069": {
+                                            "availableIpAddressCount": 7,
+                                            "cidrBlock": "172.16.2.0/28",
+                                            "networkInterfaces": {
+                                                "eni-00b8ed616dea56a08": {
+                                                    "macAddress": "02:99:3d:4d:d2:40",
+                                                    "privateIpAddress": "172.16.2.9"
+                                                },
+                                                "eni-0eb4f0a567df19d63": {
+                                                    "macAddress": "02:7a:05:ec:59:7e",
+                                                    "privateIpAddress": "172.16.2.11"
+                                                },
+                                                "eni-10d6f44e": {
+                                                    "macAddress": "02:7a:8d:70:af:9e",
+                                                    "privateIpAddress": "172.16.2.4"
+                                                },
+                                                "eni-69f3de37": {
+                                                    "macAddress": "02:1b:86:fb:fb:42",
+                                                    "privateIpAddress": "172.16.2.5"
+                                                }
+                                            }
+                                        },
+                                        "subnet-47b9c32f": {
+                                            "availableIpAddressCount": 9,
+                                            "cidrBlock": "172.16.2.16/28",
+                                            "networkInterfaces": {
+                                                "eni-11f6db4f": {
+                                                    "macAddress": "02:02:74:62:93:34",
+                                                    "privateIpAddress": "172.16.2.20"
+                                                },
+                                                "eni-5ad6f404": {
+                                                    "macAddress": "02:02:e0:1c:e8:f0",
+                                                    "privateIpAddress": "172.16.2.30"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "ap-south-1b": {
+                                    "subnets": {}
+                                }
+                            },
+                            "cidrBlock": "172.16.2.0/24",
+                            "securityGroups": {
+                                "sg-207aab4a": "default",
+                                "sg-c433eaae": "CVP_CloudEyes"
+                            }
+                        },
+                        "vpc-5ce2b134": {
+                            "availabilityZones": {
+                                "ap-south-1a": {
+                                    "subnets": {}
+                                },
+                                "ap-south-1b": {
+                                    "subnets": {
+                                        "subnet-bdd77cf1": {
+                                            "availableIpAddressCount": 9,
+                                            "cidrBlock": "172.16.1.16/28",
+                                            "networkInterfaces": {
+                                                "eni-abde7081": {
+                                                    "macAddress": "0a:14:82:c1:32:da",
+                                                    "privateIpAddress": "172.16.1.25"
+                                                },
+                                                "eni-e9eb43c3": {
+                                                    "macAddress": "0a:ae:d6:fd:1f:8a",
+                                                    "privateIpAddress": "172.16.1.26"
+                                                }
+                                            }
+                                        },
+                                        "subnet-c5d07b89": {
+                                            "availableIpAddressCount": 9,
+                                            "cidrBlock": "172.16.1.0/28",
+                                            "networkInterfaces": {
+                                                "eni-e2ed45c8": {
+                                                    "macAddress": "0a:6a:4a:ed:28:0e",
+                                                    "privateIpAddress": "172.16.1.4"
+                                                },
+                                                "eni-fcde70d6": {
+                                                    "macAddress": "0a:7a:0d:4c:87:92",
+                                                    "privateIpAddress": "172.16.1.8"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+                            "cidrBlock": "172.16.1.0/24",
+                            "securityGroups": {
+                                "sg-048b9f6911e31f591": "launch-wizard-1",
+                                "sg-1e79a874": "default",
+                                "sg-6d11c207": "Company vEOS Router -BYOL--EOS-4-20-5F-BYOL-AutogenByAWSMP-3",
+                                "sg-81845aeb": "CVP_CloudEyes",
+                                "sg-ab13c0c1": "Company vEOS Router -BYOL--EOS-4-20-5F-BYOL-AutogenByAWSMP-4"
+                            }
+                        }
+                    }
+                },
+                "ap-southeast-1": {
+                    "amis": {
+                        "ami-25e56d46": "EOS-4.18.0FX-VEOS-e068c3d2-ec0c-4eb0-8f96-a74739def842-ami-88b40e9e.4",
+                        "ami-c27126a1": "EOS-4.20.1FX-Virtual-Router-507803fc-f6ff-4a36-9720-d708ef9f9d61-ami-3936b843.4",
+                        "ami-ca3205b6": "EOS-4.20.5F-BYOL-507803fc-f6ff-4a36-9720-d708ef9f9d61-ami-9563d0ea.4"
+                    },
+                    "elasticIps": {},
+                    "keyPairNames": ["ajitesh"],
+                    "vpcs": {
+                        "vpc-c39d29a7": {
+                            "availabilityZones": {
+                                "ap-southeast-1a": {
+                                    "subnets": {
+                                        "subnet-784d3a1c": {
+                                            "availableIpAddressCount": 4091,
+                                            "cidrBlock": "172.31.0.0/20",
+                                            "networkInterfaces": {}
+                                        }
+                                    }
+                                },
+                                "ap-southeast-1b": {
+                                    "subnets": {
+                                        "subnet-5d17722b": {
+                                            "availableIpAddressCount": 4091,
+                                            "cidrBlock": "172.31.16.0/20",
+                                            "networkInterfaces": {}
+                                        }
+                                    }
+                                },
+                                "ap-southeast-1c": {
+                                    "subnets": {
+                                        "subnet-c3015085": {
+                                            "availableIpAddressCount": 4091,
+                                            "cidrBlock": "172.31.32.0/20",
+                                            "networkInterfaces": {}
+                                        }
+                                    }
+                                }
+                            },
+                            "cidrBlock": "172.31.0.0/16",
+                            "securityGroups": {
+                                "sg-6200de05": "default",
+                                "sg-b826f9c0": "Company vEOS Router -BYOL--EOS-4-20-5F-BYOL-AutogenByAWSMP-"
+                            }
+                        }
+                    }
+                },
+                "ap-southeast-2": {
+                    "amis": {
+                        "ami-1c8a5c7e": "EOS-4.20.5F-BYOL-507803fc-f6ff-4a36-9720-d708ef9f9d61-ami-9563d0ea.4",
+                        "ami-838695e0": "EOS-4.18.0FX-VEOS-e068c3d2-ec0c-4eb0-8f96-a74739def842-ami-88b40e9e.4",
+                        "ami-fd56bd9f": "EOS-4.20.1FX-Virtual-Router-507803fc-f6ff-4a36-9720-d708ef9f9d61-ami-3936b843.4"
+                    },
+                    "elasticIps": {},
+                    "keyPairNames": ["ap-se-2-demo"],
+                    "vpcs": {
+                        "vpc-d4b972b0": {
+                            "availabilityZones": {
+                                "ap-southeast-2a": {
+                                    "subnets": {
+                                        "subnet-9bcf59ff": {
+                                            "availableIpAddressCount": 4091,
+                                            "cidrBlock": "172.31.16.0/20",
+                                            "networkInterfaces": {}
+                                        }
+                                    }
+                                },
+                                "ap-southeast-2b": {
+                                    "subnets": {
+                                        "subnet-e0d26c96": {
+                                            "availableIpAddressCount": 4091,
+                                            "cidrBlock": "172.31.32.0/20",
+                                            "networkInterfaces": {}
+                                        }
+                                    }
+                                },
+                                "ap-southeast-2c": {
+                                    "subnets": {
+                                        "subnet-8b74d3d2": {
+                                            "availableIpAddressCount": 4091,
+                                            "cidrBlock": "172.31.0.0/20",
+                                            "networkInterfaces": {}
+                                        }
+                                    }
+                                }
+                            },
+                            "cidrBlock": "172.31.0.0/16",
+                            "securityGroups": {
+                                "sg-0681024942dc6617a": "launch-wizard-1",
+                                "sg-087cf8415f29b7edf": "launch-wizard-2",
+                                "sg-0b7eb86c": "default"
+                            }
+                        }
+                    }
+                }
+            },
+            "vDeviceTypes": ["t2.small", "t2.medium", "c4.large", "c4.xlarge", "c4.2xlarge", "r4.large", "r4.xlarge", "r4.2xlarge", "r4.4xlarge"]
+        }
+    }
+}

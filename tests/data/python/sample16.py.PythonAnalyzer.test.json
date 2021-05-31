@@ -1,0 +1,252 @@
+[
+  {
+    "key": "ipAddress",
+    "value": "bizdev-fortimgr",
+    "start_pos": 3580,
+    "end_pos": 3594,
+    "start_line": 82,
+    "end_line": 82,
+    "start_column": 20,
+    "end_column": 34
+  },
+  {
+    "key": "username",
+    "value": "admin",
+    "start_pos": 3611,
+    "end_pos": 3615,
+    "start_line": 82,
+    "end_line": 82,
+    "start_column": 51,
+    "end_column": 55
+  },
+  {
+    "key": "password",
+    "value": "company",
+    "start_pos": 3632,
+    "end_pos": 3638,
+    "start_line": 82,
+    "end_line": 82,
+    "start_column": 72,
+    "end_column": 78
+  },
+  {
+    "key": "protocol",
+    "value": "https",
+    "start_pos": 3661,
+    "end_pos": 3665,
+    "start_line": 83,
+    "end_line": 83,
+    "start_column": 19,
+    "end_column": 23
+  },
+  {
+    "key": "method",
+    "value": "tls",
+    "start_pos": 3704,
+    "end_pos": 3706,
+    "start_line": 83,
+    "end_line": 83,
+    "start_column": 62,
+    "end_column": 64
+  },
+  {
+    "key": "exceptionMode",
+    "value": "bypass",
+    "start_pos": 3797,
+    "end_pos": 3802,
+    "start_line": 85,
+    "end_line": 85,
+    "start_column": 24,
+    "end_column": 29
+  },
+  {
+    "key": "group",
+    "value": "mssGroup",
+    "start_pos": 3816,
+    "end_pos": 3823,
+    "start_line": 85,
+    "end_line": 85,
+    "start_column": 43,
+    "end_column": 50
+  },
+  {
+    "key": "adminDomain",
+    "value": "root",
+    "start_pos": 3849,
+    "end_pos": 3852,
+    "start_line": 86,
+    "end_line": 86,
+    "start_column": 22,
+    "end_column": 25
+  },
+  {
+    "key": "virtualDomain",
+    "value": "L2_Firewall",
+    "start_pos": 3874,
+    "end_pos": 3884,
+    "start_line": 86,
+    "end_line": 86,
+    "start_column": 47,
+    "end_column": 57
+  },
+  {
+    "key": "switchIntf",
+    "value": "Ethernet39",
+    "start_pos": 3960,
+    "end_pos": 3969,
+    "start_line": 89,
+    "end_line": 89,
+    "start_column": 27,
+    "end_column": 36
+  },
+  {
+    "key": "switchChassisId",
+    "value": "001c.737e.2811",
+    "start_pos": 3993,
+    "end_pos": 4006,
+    "start_line": 89,
+    "end_line": 89,
+    "start_column": 60,
+    "end_column": 73
+  },
+  {
+    "key": "switchIntf",
+    "value": "Ethernet40",
+    "start_pos": 4062,
+    "end_pos": 4071,
+    "start_line": 91,
+    "end_line": 91,
+    "start_column": 28,
+    "end_column": 37
+  },
+  {
+    "key": "switchChassisId",
+    "value": "001c.737e.2811",
+    "start_pos": 4096,
+    "end_pos": 4109,
+    "start_line": 91,
+    "end_line": 91,
+    "start_column": 62,
+    "end_column": 75
+  },
+  {
+    "key": "switchIntf",
+    "value": "Ethernet41",
+    "start_pos": 4165,
+    "end_pos": 4174,
+    "start_line": 93,
+    "end_line": 93,
+    "start_column": 28,
+    "end_column": 37
+  },
+  {
+    "key": "switchChassisId",
+    "value": "001c.737e.2811",
+    "start_pos": 4199,
+    "end_pos": 4212,
+    "start_line": 93,
+    "end_line": 93,
+    "start_column": 62,
+    "end_column": 75
+  },
+  {
+    "key": "switchIntf",
+    "value": "Ethernet42",
+    "start_pos": 4268,
+    "end_pos": 4277,
+    "start_line": 95,
+    "end_line": 95,
+    "start_column": 28,
+    "end_column": 37
+  },
+  {
+    "key": "switchChassisId",
+    "value": "001c.737e.2811",
+    "start_pos": 4302,
+    "end_pos": 4315,
+    "start_line": 95,
+    "end_line": 95,
+    "start_column": 62,
+    "end_column": 75
+  },
+  {
+    "key": "switchIntf",
+    "value": "Port-Channel70",
+    "start_pos": 4369,
+    "end_pos": 4382,
+    "start_line": 97,
+    "end_line": 97,
+    "start_column": 27,
+    "end_column": 40
+  },
+  {
+    "key": "switchChassisId",
+    "value": "001c.737e.2811",
+    "start_pos": 4406,
+    "end_pos": 4419,
+    "start_line": 97,
+    "end_line": 97,
+    "start_column": 64,
+    "end_column": 77
+  },
+  {
+    "key": "switchIntf",
+    "value": "Port-Channel70",
+    "start_pos": 4473,
+    "end_pos": 4486,
+    "start_line": 99,
+    "end_line": 99,
+    "start_column": 27,
+    "end_column": 40
+  },
+  {
+    "key": "switchChassisId",
+    "value": "001c.737e.2811",
+    "start_pos": 4510,
+    "end_pos": 4523,
+    "start_line": 99,
+    "end_line": 99,
+    "start_column": 64,
+    "end_column": 77
+  },
+  {
+    "key": "switchIntf",
+    "value": "Port-Channel75",
+    "start_pos": 4577,
+    "end_pos": 4590,
+    "start_line": 101,
+    "end_line": 101,
+    "start_column": 27,
+    "end_column": 40
+  },
+  {
+    "key": "switchChassisId",
+    "value": "001c.737e.2811",
+    "start_pos": 4614,
+    "end_pos": 4627,
+    "start_line": 101,
+    "end_line": 101,
+    "start_column": 64,
+    "end_column": 77
+  },
+  {
+    "key": "switchIntf",
+    "value": "Port-Channel75",
+    "start_pos": 4681,
+    "end_pos": 4694,
+    "start_line": 103,
+    "end_line": 103,
+    "start_column": 27,
+    "end_column": 40
+  },
+  {
+    "key": "switchChassisId",
+    "value": "001c.737e.2811",
+    "start_pos": 4718,
+    "end_pos": 4731,
+    "start_line": 103,
+    "end_line": 103,
+    "start_column": 64,
+    "end_column": 77
+  }
+]

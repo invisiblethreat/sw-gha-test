@@ -1,0 +1,222 @@
+[
+  {
+    "key": "explode",
+    "value": "/",
+    "start_pos": 719,
+    "end_pos": 720,
+    "start_line": 18,
+    "end_line": 18,
+    "start_column": 42,
+    "end_column": 43
+  },
+  {
+    "key": "str_replace",
+    "value": ".php",
+    "start_pos": 792,
+    "end_pos": 796,
+    "start_line": 19,
+    "end_line": 19,
+    "start_column": 54,
+    "end_column": 58
+  },
+  {
+    "key": "str_replace",
+    "value": "",
+    "start_pos": 800,
+    "end_pos": 800,
+    "start_line": 19,
+    "end_line": 19,
+    "start_column": 62,
+    "end_column": 62
+  },
+  {
+    "key": "plugin_download_link",
+    "value": "/repository/archive.zip?private_token=",
+    "start_pos": 1063,
+    "end_pos": 1101,
+    "start_line": 24,
+    "end_line": 24,
+    "start_column": 25,
+    "end_column": 63
+  },
+  {
+    "key": "add_filter",
+    "value": "pre_set_site_transient_update_plugins",
+    "start_pos": 1171,
+    "end_pos": 1208,
+    "start_line": 27,
+    "end_line": 27,
+    "start_column": 28,
+    "end_column": 65
+  },
+  {
+    "key": "add_filter",
+    "value": "check_update",
+    "start_pos": 1225,
+    "end_pos": 1237,
+    "start_line": 27,
+    "end_line": 27,
+    "start_column": 82,
+    "end_column": 94
+  },
+  {
+    "key": "add_filter",
+    "value": "plugins_api",
+    "start_pos": 1270,
+    "end_pos": 1281,
+    "start_line": 28,
+    "end_line": 28,
+    "start_column": 28,
+    "end_column": 39
+  },
+  {
+    "key": "add_filter",
+    "value": "check_info",
+    "start_pos": 1298,
+    "end_pos": 1308,
+    "start_line": 28,
+    "end_line": 28,
+    "start_column": 56,
+    "end_column": 66
+  },
+  {
+    "key": "add_action",
+    "value": "upgrader_process_complete",
+    "start_pos": 1348,
+    "end_pos": 1373,
+    "start_line": 29,
+    "end_line": 29,
+    "start_column": 28,
+    "end_column": 53
+  },
+  {
+    "key": "add_action",
+    "value": "cleanup",
+    "start_pos": 1390,
+    "end_pos": 1397,
+    "start_line": 29,
+    "end_line": 29,
+    "start_column": 70,
+    "end_column": 77
+  },
+  {
+    "key": "add_filter",
+    "value": "http_request_host_is_external",
+    "start_pos": 1640,
+    "end_pos": 1669,
+    "start_line": 34,
+    "end_line": 34,
+    "start_column": 28,
+    "end_column": 57
+  },
+  {
+    "key": "add_filter",
+    "value": "allow_local_ips",
+    "start_pos": 1686,
+    "end_pos": 1701,
+    "start_line": 34,
+    "end_line": 34,
+    "start_column": 74,
+    "end_column": 89
+  },
+  {
+    "key": "is_dir",
+    "value": "/",
+    "start_pos": 2471,
+    "end_pos": 2472,
+    "start_line": 46,
+    "end_line": 46,
+    "start_column": 78,
+    "end_column": 79
+  },
+  {
+    "key": "rename",
+    "value": "/",
+    "start_pos": 2903,
+    "end_pos": 2904,
+    "start_line": 51,
+    "end_line": 51,
+    "start_column": 79,
+    "end_column": 80
+  },
+  {
+    "key": "rename",
+    "value": "/",
+    "start_pos": 3004,
+    "end_pos": 3005,
+    "start_line": 52,
+    "end_line": 52,
+    "start_column": 79,
+    "end_column": 80
+  },
+  {
+    "key": "version_compare",
+    "value": "<",
+    "start_pos": 3574,
+    "end_pos": 3575,
+    "start_line": 68,
+    "end_line": 68,
+    "start_column": 77,
+    "end_column": 78
+  },
+  {
+    "key": "$version_check_url",
+    "value": "/repository/tags?private_token=",
+    "start_pos": 4856,
+    "end_pos": 4887,
+    "start_line": 94,
+    "end_line": 94,
+    "start_column": 25,
+    "end_column": 56
+  },
+  {
+    "key": "$version",
+    "value": "v",
+    "start_pos": 5344,
+    "end_pos": 5345,
+    "start_line": 102,
+    "end_line": 102,
+    "start_column": 55,
+    "end_column": 56
+  },
+  {
+    "key": "str_replace",
+    "value": "v",
+    "start_pos": 5470,
+    "end_pos": 5471,
+    "start_line": 105,
+    "end_line": 105,
+    "start_column": 48,
+    "end_column": 49
+  },
+  {
+    "key": "str_replace",
+    "value": "",
+    "start_pos": 5475,
+    "end_pos": 5475,
+    "start_line": 105,
+    "end_line": 105,
+    "start_column": 53,
+    "end_column": 53
+  },
+  {
+    "key": "json_decode",
+    "value": "body",
+    "start_pos": 5799,
+    "end_pos": 5803,
+    "start_line": 113,
+    "end_line": 113,
+    "start_column": 53,
+    "end_column": 57
+  },
+  {
+    "key": "$result",
+    "value": "gitlab.elikirk.com",
+    "start_pos": 6032,
+    "end_pos": 6050,
+    "start_line": 121,
+    "end_line": 121,
+    "start_column": 29,
+    "end_column": 47
+  }
+]

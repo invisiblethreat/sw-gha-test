@@ -1,0 +1,332 @@
+[
+  {
+    "key": "fooString",
+    "value": "My String Is Here!",
+    "start_pos": 1068,
+    "end_pos": 1086,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 22,
+    "end_column": 40
+  },
+  {
+    "key": "barString",
+    "value": "Printing on a new line?\\nNo Problem!",
+    "start_pos": 1109,
+    "end_pos": 1145,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 22,
+    "end_column": 58
+  },
+  {
+    "key": "bazString",
+    "value": "Do you want to add a tab?\\tNo Problem!",
+    "start_pos": 1168,
+    "end_pos": 1206,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 22,
+    "end_column": 60
+  },
+  {
+    "key": "fooRawString",
+    "value": "\"\"\nfun helloWorld(val name : String) {\n   println(\"Hello, world!\")\n}\n\"\"",
+    "start_pos": 1434,
+    "end_pos": 1505,
+    "start_line": 1,
+    "end_line": 4,
+    "start_column": 25,
+    "end_column": 27
+  },
+  {
+    "key": "fooTemplateString",
+    "value": "$fooString has ${fooString.length} characters",
+    "start_pos": 1680,
+    "end_pos": 1725,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 30,
+    "end_column": 75
+  },
+  {
+    "key": "name",
+    "value": "world",
+    "start_pos": 2679,
+    "end_pos": 2684,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 31,
+    "end_column": 36
+  },
+  {
+    "key": "hello",
+    "value": "foo",
+    "start_pos": 2753,
+    "end_pos": 2756,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 20,
+    "end_column": 23
+  },
+  {
+    "key": "name",
+    "value": "bar",
+    "start_pos": 2804,
+    "end_pos": 2807,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 27,
+    "end_column": 30
+  },
+  {
+    "key": "println",
+    "value": "Argument has ${names.size} elements",
+    "start_pos": 3084,
+    "end_pos": 3119,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 18,
+    "end_column": 53
+  },
+  {
+    "key": "println",
+    "value": "${notOdd(i)} ${notEven(i)} ${notZero(i)} ${notPositive(i)}",
+    "start_pos": 4352,
+    "end_pos": 4410,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 18,
+    "end_column": 76
+  },
+  {
+    "key": "println",
+    "value": "$a $b $c",
+    "start_pos": 5730,
+    "end_pos": 5738,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 14,
+    "end_column": 22
+  },
+  {
+    "key": "println",
+    "value": "$a $b $c",
+    "start_pos": 5849,
+    "end_pos": 5857,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 18,
+    "end_column": 26
+  },
+  {
+    "key": "mapOf",
+    "value": "a",
+    "start_pos": 5906,
+    "end_pos": 5907,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 26,
+    "end_column": 27
+  },
+  {
+    "key": "println",
+    "value": "$key -> $value",
+    "start_pos": 6021,
+    "end_pos": 6035,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 18,
+    "end_column": 32
+  },
+  {
+    "key": "listOf",
+    "value": "a",
+    "start_pos": 6567,
+    "end_pos": 6568,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 27,
+    "end_column": 28
+  },
+  {
+    "key": "mutableListOf",
+    "value": "a",
+    "start_pos": 6892,
+    "end_pos": 6893,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 41,
+    "end_column": 42
+  },
+  {
+    "key": "add",
+    "value": "d",
+    "start_pos": 6930,
+    "end_pos": 6931,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 25,
+    "end_column": 26
+  },
+  {
+    "key": "setOf",
+    "value": "a",
+    "start_pos": 7098,
+    "end_pos": 7099,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 25,
+    "end_column": 26
+  },
+  {
+    "key": "contains",
+    "value": "a",
+    "start_pos": 7141,
+    "end_pos": 7142,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 30,
+    "end_column": 31
+  },
+  {
+    "key": "contains",
+    "value": "z",
+    "start_pos": 7186,
+    "end_pos": 7187,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 30,
+    "end_column": 31
+  },
+  {
+    "key": "mapOf",
+    "value": "a",
+    "start_pos": 7283,
+    "end_pos": 7284,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 25,
+    "end_column": 26
+  },
+  {
+    "key": "println",
+    "value": "$num is $message",
+    "start_pos": 8978,
+    "end_pos": 8994,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 14,
+    "end_column": 30
+  },
+  {
+    "key": "println",
+    "value": "first block",
+    "start_pos": 9133,
+    "end_pos": 9144,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 27,
+    "end_column": 38
+  },
+  {
+    "key": "startsWith",
+    "value": "hello",
+    "start_pos": 9177,
+    "end_pos": 9182,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 31,
+    "end_column": 36
+  },
+  {
+    "key": "println",
+    "value": "second block",
+    "start_pos": 9197,
+    "end_pos": 9209,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 51,
+    "end_column": 63
+  },
+  {
+    "key": "println",
+    "value": "else block",
+    "start_pos": 9237,
+    "end_pos": 9247,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 26,
+    "end_column": 36
+  },
+  {
+    "key": "println",
+    "value": "0 or 21",
+    "start_pos": 9342,
+    "end_pos": 9349,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 27,
+    "end_column": 34
+  },
+  {
+    "key": "println",
+    "value": "in the range 1 to 20",
+    "start_pos": 9381,
+    "end_pos": 9401,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 30,
+    "end_column": 50
+  },
+  {
+    "key": "println",
+    "value": "none of the above",
+    "start_pos": 9429,
+    "end_pos": 9446,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 26,
+    "end_column": 43
+  },
+  {
+    "key": "smartCastExample",
+    "value": "Hello, world!",
+    "start_pos": 10331,
+    "end_pos": 10344,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 31,
+    "end_column": 44
+  },
+  {
+    "key": "smartCastExample",
+    "value": "",
+    "start_pos": 10389,
+    "end_pos": 10389,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 31,
+    "end_column": 31
+  },
+  {
+    "key": "println",
+    "value": "Hello, world!",
+    "start_pos": 10967,
+    "end_pos": 10980,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 14,
+    "end_column": 27
+  },
+  {
+    "key": "println",
+    "value": "The value of the counter is $value",
+    "start_pos": 13332,
+    "end_pos": 13366,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 38,
+    "end_column": 72
+  }
+]

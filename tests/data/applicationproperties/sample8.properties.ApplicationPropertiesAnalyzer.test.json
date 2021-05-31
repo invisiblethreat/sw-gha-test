@@ -1,0 +1,222 @@
+[
+  {
+    "key": "druid.extensions.loadList",
+    "value": "[\"mysql-metadata-storage\", \"druid-kafka-eight\", \"druid-s3-extensions\"]",
+    "start_pos": 862,
+    "end_pos": 932,
+    "start_line": 20,
+    "end_line": 21,
+    "start_column": 27,
+    "end_column": 0
+  },
+  {
+    "key": "druid.extensions.directory",
+    "value": "extensions",
+    "start_pos": 960,
+    "end_pos": 970,
+    "start_line": 21,
+    "end_line": 22,
+    "start_column": 28,
+    "end_column": 0
+  },
+  {
+    "key": "druid.extensions.hadoopDependenciesDir",
+    "value": "hadoopDependenciesDir",
+    "start_pos": 1010,
+    "end_pos": 1031,
+    "start_line": 22,
+    "end_line": 23,
+    "start_column": 40,
+    "end_column": 0
+  },
+  {
+    "key": "druid.zk.service.host",
+    "value": "somecompany-zookeeper.marathon.mesos:12181",
+    "start_pos": 1067,
+    "end_pos": 1109,
+    "start_line": 25,
+    "end_line": 26,
+    "start_column": 23,
+    "end_column": 0
+  },
+  {
+    "key": "druid.metadata.storage.type",
+    "value": "mysql",
+    "start_pos": 1266,
+    "end_pos": 1271,
+    "start_line": 29,
+    "end_line": 30,
+    "start_column": 29,
+    "end_column": 0
+  },
+  {
+    "key": "druid.metadata.storage.connector.connectURI",
+    "value": "jdbc:mysql://user-db.marathon.mesos:3306/druid",
+    "start_pos": 1316,
+    "end_pos": 1362,
+    "start_line": 30,
+    "end_line": 31,
+    "start_column": 45,
+    "end_column": 0
+  },
+  {
+    "key": "druid.metadata.storage.connector.user",
+    "value": "druid",
+    "start_pos": 1401,
+    "end_pos": 1406,
+    "start_line": 31,
+    "end_line": 32,
+    "start_column": 39,
+    "end_column": 0
+  },
+  {
+    "key": "druid.metadata.storage.connector.password",
+    "value": "diurd",
+    "start_pos": 1449,
+    "end_pos": 1454,
+    "start_line": 32,
+    "end_line": 33,
+    "start_column": 43,
+    "end_column": 0
+  },
+  {
+    "key": "druid.storage.type",
+    "value": "local",
+    "start_pos": 1553,
+    "end_pos": 1558,
+    "start_line": 35,
+    "end_line": 36,
+    "start_column": 20,
+    "end_column": 0
+  },
+  {
+    "key": "druid.storage.storageDirectory",
+    "value": "/tmp/druid/localStorage",
+    "start_pos": 1590,
+    "end_pos": 1613,
+    "start_line": 36,
+    "end_line": 37,
+    "start_column": 32,
+    "end_column": 0
+  },
+  {
+    "key": "druid.storage.type",
+    "value": "s3",
+    "start_pos": 1659,
+    "end_pos": 1661,
+    "start_line": 39,
+    "end_line": 40,
+    "start_column": 21,
+    "end_column": 0
+  },
+  {
+    "key": "druid.s3.accessKey",
+    "value": "AKIAJRTI7WX3QDFFZFRA",
+    "start_pos": 1682,
+    "end_pos": 1702,
+    "start_line": 40,
+    "end_line": 41,
+    "start_column": 21,
+    "end_column": 0
+  },
+  {
+    "key": "druid.s3.secretKey",
+    "value": "WlkbzvGV84H8Jt/bxA67K6d0AZO/2ZVpuzX1lM8d",
+    "start_pos": 1723,
+    "end_pos": 1763,
+    "start_line": 41,
+    "end_line": 42,
+    "start_column": 21,
+    "end_column": 0
+  },
+  {
+    "key": "druid.storage.bucket",
+    "value": "somecompany-pro-druid-deep-storage",
+    "start_pos": 1786,
+    "end_pos": 1820,
+    "start_line": 42,
+    "end_line": 43,
+    "start_column": 23,
+    "end_column": 0
+  },
+  {
+    "key": "druid.storage.baseKey",
+    "value": "druid-segments",
+    "start_pos": 1844,
+    "end_pos": 1858,
+    "start_line": 43,
+    "end_line": 44,
+    "start_column": 24,
+    "end_column": 0
+  },
+  {
+    "key": "druid.cache.type",
+    "value": "local",
+    "start_pos": 1951,
+    "end_pos": 1956,
+    "start_line": 46,
+    "end_line": 47,
+    "start_column": 18,
+    "end_column": 0
+  },
+  {
+    "key": "druid.cache.sizeInBytes",
+    "value": "10000000",
+    "start_pos": 1981,
+    "end_pos": 1989,
+    "start_line": 47,
+    "end_line": 48,
+    "start_column": 25,
+    "end_column": 0
+  },
+  {
+    "key": "druid.selectors.coordinator.serviceName",
+    "value": "druid-coordinator",
+    "start_pos": 2063,
+    "end_pos": 2080,
+    "start_line": 50,
+    "end_line": 51,
+    "start_column": 41,
+    "end_column": 0
+  },
+  {
+    "key": "druid.selectors.indexing.serviceName",
+    "value": "druid-overlord",
+    "start_pos": 2148,
+    "end_pos": 2162,
+    "start_line": 53,
+    "end_line": 54,
+    "start_column": 38,
+    "end_column": 0
+  },
+  {
+    "key": "druid.monitoring.monitors",
+    "value": "[\"com.metamx.metrics.SysMonitor\",\"com.metamx.metrics.JvmMonitor\"]",
+    "start_pos": 2229,
+    "end_pos": 2294,
+    "start_line": 56,
+    "end_line": 57,
+    "start_column": 29,
+    "end_column": 0
+  },
+  {
+    "key": "druid.emitter",
+    "value": "logging",
+    "start_pos": 2352,
+    "end_pos": 2359,
+    "start_line": 59,
+    "end_line": 58,
+    "start_column": 15,
+    "end_column": 0
+  },
+  {
+    "key": "druid.emitter.logging.logLevel",
+    "value": "debug",
+    "start_pos": 2391,
+    "end_pos": 2396,
+    "start_line": 58,
+    "end_line": 58,
+    "start_column": 32,
+    "end_column": 37
+  }
+]

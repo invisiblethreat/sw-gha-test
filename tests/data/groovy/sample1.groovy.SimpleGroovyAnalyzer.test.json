@@ -1,0 +1,32 @@
+[
+  {
+    "key": "clientId",
+    "value": "AKIAIDMUIY2QZLABJ65Q",
+    "start_pos": 740,
+    "end_pos": 760,
+    "start_line": 14,
+    "end_line": 14,
+    "start_column": 17,
+    "end_column": 37
+  },
+  {
+    "key": "clientSecret",
+    "value": "Ari8sJk4vc6Ax2oGtEOGwkwvk4eY2czE2nSpnJO6",
+    "start_pos": 782,
+    "end_pos": 822,
+    "start_line": 15,
+    "end_line": 15,
+    "start_column": 21,
+    "end_column": 61
+  },
+  {
+    "key": "bucketName",
+    "value": "quickstream-data",
+    "start_pos": 884,
+    "end_pos": 900,
+    "start_line": 17,
+    "end_line": 17,
+    "start_column": 19,
+    "end_column": 35
+  }
+]

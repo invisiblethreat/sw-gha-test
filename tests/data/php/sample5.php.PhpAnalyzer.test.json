@@ -1,0 +1,372 @@
+[
+  {
+    "key": "$lib_dir",
+    "value": "/lib",
+    "start_pos": 506,
+    "end_pos": 510,
+    "start_line": 19,
+    "end_line": 19,
+    "start_column": 45,
+    "end_column": 49
+  },
+  {
+    "key": "$cache_file",
+    "value": "social.php",
+    "start_pos": 655,
+    "end_pos": 665,
+    "start_line": 24,
+    "end_line": 24,
+    "start_column": 39,
+    "end_column": 49
+  },
+  {
+    "key": "define",
+    "value": "FACEBOOK_SDK_V4_SRC_DIR",
+    "start_pos": 963,
+    "end_pos": 986,
+    "start_line": 33,
+    "end_line": 33,
+    "start_column": 16,
+    "end_column": 39
+  },
+  {
+    "key": "define",
+    "value": "/php-graph-sdk-5.0.0/src/Facebook/",
+    "start_pos": 999,
+    "end_pos": 1033,
+    "start_line": 33,
+    "end_line": 33,
+    "start_column": 52,
+    "end_column": 86
+  },
+  {
+    "key": "$social_posts",
+    "value": "/php-graph-sdk-5.0.0/src/Facebook/autoload.php",
+    "start_pos": 1068,
+    "end_pos": 1114,
+    "start_line": 34,
+    "end_line": 34,
+    "start_column": 31,
+    "end_column": 77
+  },
+  {
+    "key": "$facebook_app_id",
+    "value": "267655880386087",
+    "start_pos": 1275,
+    "end_pos": 1290,
+    "start_line": 38,
+    "end_line": 38,
+    "start_column": 28,
+    "end_column": 43
+  },
+  {
+    "key": "$facebook_app_secret",
+    "value": "fad69f027c6fc74a1b7e5b7ec6dd35a6",
+    "start_pos": 1325,
+    "end_pos": 1357,
+    "start_line": 39,
+    "end_line": 39,
+    "start_column": 32,
+    "end_column": 64
+  },
+  {
+    "key": "$facebook_access_token",
+    "value": "|",
+    "start_pos": 1411,
+    "end_pos": 1412,
+    "start_line": 40,
+    "end_line": 40,
+    "start_column": 51,
+    "end_column": 52
+  },
+  {
+    "key": "$facebook_feed_id",
+    "value": "115485045141584",
+    "start_pos": 1465,
+    "end_pos": 1480,
+    "start_line": 41,
+    "end_line": 41,
+    "start_column": 29,
+    "end_column": 44
+  },
+  {
+    "key": "$facebook_feed_name",
+    "value": "businessutah",
+    "start_pos": 1514,
+    "end_pos": 1526,
+    "start_line": 42,
+    "end_line": 42,
+    "start_column": 31,
+    "end_column": 43
+  },
+  {
+    "key": "$twitter_consumer_key",
+    "value": "fDENjxGACzLTWfSmxZEhpQB1l",
+    "start_pos": 1563,
+    "end_pos": 1588,
+    "start_line": 44,
+    "end_line": 44,
+    "start_column": 33,
+    "end_column": 58
+  },
+  {
+    "key": "$twitter_consumer_secret",
+    "value": "5NlIBypgSCf28dCkCdwRoIy50EOvcbr4iTb7g2MwYtoKEtRmTC",
+    "start_pos": 1627,
+    "end_pos": 1677,
+    "start_line": 45,
+    "end_line": 45,
+    "start_column": 36,
+    "end_column": 86
+  },
+  {
+    "key": "$twitter_access_token",
+    "value": "2485597574-OuwAhSFHbnRCh2MEHyx5JI29sJtDwhmW245Euqx",
+    "start_pos": 1713,
+    "end_pos": 1763,
+    "start_line": 46,
+    "end_line": 46,
+    "start_column": 33,
+    "end_column": 83
+  },
+  {
+    "key": "$twitter_access_secret",
+    "value": "x0QHeMoSgCpHYZALPbvlWxcPV4cARFSQ2DAEUTgtMr6k8",
+    "start_pos": 1800,
+    "end_pos": 1845,
+    "start_line": 47,
+    "end_line": 47,
+    "start_column": 34,
+    "end_column": 79
+  },
+  {
+    "key": "$twitter_feed_name",
+    "value": "businessutah",
+    "start_pos": 1878,
+    "end_pos": 1890,
+    "start_line": 48,
+    "end_line": 48,
+    "start_column": 30,
+    "end_column": 42
+  },
+  {
+    "key": "$linkedin_api_key",
+    "value": "860c086brhem15",
+    "start_pos": 1931,
+    "end_pos": 1945,
+    "start_line": 50,
+    "end_line": 50,
+    "start_column": 37,
+    "end_column": 51
+  },
+  {
+    "key": "$linkedin_api_secret",
+    "value": "IBhuBgWfvF8ZmZJW",
+    "start_pos": 1988,
+    "end_pos": 2004,
+    "start_line": 51,
+    "end_line": 51,
+    "start_column": 40,
+    "end_column": 56
+  },
+  {
+    "key": "$linkedin_callback",
+    "value": "https://business.utah.gov",
+    "start_pos": 2045,
+    "end_pos": 2070,
+    "start_line": 52,
+    "end_line": 52,
+    "start_column": 38,
+    "end_column": 63
+  },
+  {
+    "key": "$linkedin_company_id",
+    "value": "3357569",
+    "start_pos": 2113,
+    "end_pos": 2120,
+    "start_line": 53,
+    "end_line": 53,
+    "start_column": 40,
+    "end_column": 47
+  },
+  {
+    "key": "$fb",
+    "value": "app_id",
+    "start_pos": 2268,
+    "end_pos": 2274,
+    "start_line": 61,
+    "end_line": 61,
+    "start_column": 17,
+    "end_column": 23
+  },
+  {
+    "key": "$response",
+    "value": "/",
+    "start_pos": 2517,
+    "end_pos": 2518,
+    "start_line": 66,
+    "end_line": 66,
+    "start_column": 36,
+    "end_column": 37
+  },
+  {
+    "key": "$created_time",
+    "value": "created_time",
+    "start_pos": 2752,
+    "end_pos": 2764,
+    "start_line": 69,
+    "end_line": 69,
+    "start_column": 55,
+    "end_column": 67
+  },
+  {
+    "key": "date",
+    "value": "F j, Y",
+    "start_pos": 2858,
+    "end_pos": 2864,
+    "start_line": 71,
+    "end_line": 71,
+    "start_column": 30,
+    "end_column": 36
+  },
+  {
+    "key": "substr",
+    "value": "id",
+    "start_pos": 2932,
+    "end_pos": 2934,
+    "start_line": 72,
+    "end_line": 72,
+    "start_column": 52,
+    "end_column": 54
+  },
+  {
+    "key": "strpos",
+    "value": "id",
+    "start_pos": 2968,
+    "end_pos": 2970,
+    "start_line": 72,
+    "end_line": 72,
+    "start_column": 88,
+    "end_column": 90
+  },
+  {
+    "key": "strpos",
+    "value": "_",
+    "start_pos": 2975,
+    "end_pos": 2976,
+    "start_line": 72,
+    "end_line": 72,
+    "start_column": 95,
+    "end_column": 96
+  },
+  {
+    "key": "$picture",
+    "value": "picture",
+    "start_pos": 3036,
+    "end_pos": 3043,
+    "start_line": 73,
+    "end_line": 73,
+    "start_column": 51,
+    "end_column": 58
+  },
+  {
+    "key": "$message",
+    "value": "message",
+    "start_pos": 3159,
+    "end_pos": 3166,
+    "start_line": 75,
+    "end_line": 75,
+    "start_column": 51,
+    "end_column": 58
+  },
+  {
+    "key": "preg_replace",
+    "value": "/(http[s]{0,1}\\:\\/\\/\\S{4,})\\s{0,}/ims",
+    "start_pos": 3336,
+    "end_pos": 3373,
+    "start_line": 79,
+    "end_line": 79,
+    "start_column": 21,
+    "end_column": 58
+  },
+  {
+    "key": "preg_replace",
+    "value": "<a href=\"$1\" target=\"_blank\">$1</a> ",
+    "start_pos": 3397,
+    "end_pos": 3433,
+    "start_line": 80,
+    "end_line": 80,
+    "start_column": 21,
+    "end_column": 57
+  },
+  {
+    "key": "count",
+    "value": "likes",
+    "start_pos": 3538,
+    "end_pos": 3543,
+    "start_line": 83,
+    "end_line": 83,
+    "start_column": 54,
+    "end_column": 59
+  },
+  {
+    "key": "$shares",
+    "value": "shares",
+    "start_pos": 3598,
+    "end_pos": 3604,
+    "start_line": 84,
+    "end_line": 84,
+    "start_column": 50,
+    "end_column": 56
+  },
+  {
+    "key": "$link",
+    "value": "https://www.facebook.com/",
+    "start_pos": 3711,
+    "end_pos": 3736,
+    "start_line": 86,
+    "end_line": 86,
+    "start_column": 25,
+    "end_column": 50
+  },
+  {
+    "key": "fopen",
+    "value": "w",
+    "start_pos": 5560,
+    "end_pos": 5561,
+    "start_line": 133,
+    "end_line": 133,
+    "start_column": 38,
+    "end_column": 39
+  },
+  {
+    "key": "$error",
+    "value": "Error in fetching content, please try again later: ",
+    "start_pos": 5708,
+    "end_pos": 5759,
+    "start_line": 137,
+    "end_line": 137,
+    "start_column": 22,
+    "end_column": 73
+  },
+  {
+    "key": "$error",
+    "value": "Error in fetching content, please try again later: ",
+    "start_pos": 5850,
+    "end_pos": 5901,
+    "start_line": 139,
+    "end_line": 139,
+    "start_column": 22,
+    "end_column": 73
+  },
+  {
+    "key": "$error",
+    "value": "Error in fetching content, please try again later: ",
+    "start_pos": 5978,
+    "end_pos": 6029,
+    "start_line": 141,
+    "end_line": 141,
+    "start_column": 22,
+    "end_column": 73
+  }
+]

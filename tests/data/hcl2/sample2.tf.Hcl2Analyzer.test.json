@@ -1,0 +1,92 @@
+[
+  {
+    "key": "name",
+    "value": "drone/server",
+    "start_pos": 63,
+    "end_pos": 75,
+    "start_line": 2,
+    "end_line": 2,
+    "start_column": 11,
+    "end_column": 23
+  },
+  {
+    "key": "description",
+    "value": "Restrict access to application server.",
+    "start_pos": 620,
+    "end_pos": 658,
+    "start_line": 23,
+    "end_line": 23,
+    "start_column": 18,
+    "end_column": 56
+  },
+  {
+    "key": "name",
+    "value": "ci-server-task-sg",
+    "start_pos": 704,
+    "end_pos": 721,
+    "start_line": 25,
+    "end_line": 25,
+    "start_column": 18,
+    "end_column": 35
+  },
+  {
+    "key": "type",
+    "value": "egress",
+    "start_pos": 802,
+    "end_pos": 808,
+    "start_line": 29,
+    "end_line": 29,
+    "start_column": 18,
+    "end_column": 24
+  },
+  {
+    "key": "description",
+    "value": "RDP c",
+    "start_pos": 827,
+    "end_pos": 832,
+    "start_line": 30,
+    "end_line": 30,
+    "start_column": 18,
+    "end_column": 23
+  },
+  {
+    "key": "protocol",
+    "value": "-1",
+    "start_pos": 937,
+    "end_pos": 939,
+    "start_line": 34,
+    "end_line": 34,
+    "start_column": 18,
+    "end_column": 20
+  },
+  {
+    "key": "type",
+    "value": "ingress",
+    "start_pos": 1119,
+    "end_pos": 1126,
+    "start_line": 44,
+    "end_line": 44,
+    "start_column": 18,
+    "end_column": 25
+  },
+  {
+    "key": "description",
+    "value": "Drone CI/CD build agents to access",
+    "start_pos": 1145,
+    "end_pos": 1179,
+    "start_line": 45,
+    "end_line": 45,
+    "start_column": 18,
+    "end_column": 52
+  },
+  {
+    "key": "protocol",
+    "value": "tcp",
+    "start_pos": 1248,
+    "end_pos": 1251,
+    "start_line": 47,
+    "end_line": 47,
+    "start_column": 18,
+    "end_column": 21
+  }
+]

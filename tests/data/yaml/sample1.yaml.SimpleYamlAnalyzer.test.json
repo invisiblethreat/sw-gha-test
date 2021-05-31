@@ -1,0 +1,102 @@
+[
+  {
+    "key": "default",
+    "value": "&default",
+    "start_pos": 131,
+    "end_pos": 139,
+    "start_line": 7,
+    "end_line": 8,
+    "start_column": 10,
+    "end_column": 0
+  },
+  {
+    "key": "adapter",
+    "value": "postgresql",
+    "start_pos": 151,
+    "end_pos": 161,
+    "start_line": 8,
+    "end_line": 9,
+    "start_column": 12,
+    "end_column": 0
+  },
+  {
+    "key": "encoding",
+    "value": "unicode",
+    "start_pos": 174,
+    "end_pos": 181,
+    "start_line": 9,
+    "end_line": 10,
+    "start_column": 13,
+    "end_column": 0
+  },
+  {
+    "key": "pool",
+    "value": "5",
+    "start_pos": 190,
+    "end_pos": 191,
+    "start_line": 10,
+    "end_line": 11,
+    "start_column": 9,
+    "end_column": 0
+  },
+  {
+    "key": "timeout",
+    "value": "5000",
+    "start_pos": 203,
+    "end_pos": 207,
+    "start_line": 11,
+    "end_line": 12,
+    "start_column": 12,
+    "end_column": 0
+  },
+  {
+    "key": "username",
+    "value": "<%= ENV['POSTGRES_USER'] %>",
+    "start_pos": 220,
+    "end_pos": 247,
+    "start_line": 12,
+    "end_line": 13,
+    "start_column": 13,
+    "end_column": 0
+  },
+  {
+    "key": "database",
+    "value": "<%= ENV['POSTGRES_DB'] %>",
+    "start_pos": 260,
+    "end_pos": 285,
+    "start_line": 13,
+    "end_line": 14,
+    "start_column": 13,
+    "end_column": 0
+  },
+  {
+    "key": "host",
+    "value": "<%= ENV['POSTGRES_HOST'] %>",
+    "start_pos": 294,
+    "end_pos": 321,
+    "start_line": 14,
+    "end_line": 15,
+    "start_column": 9,
+    "end_column": 0
+  },
+  {
+    "key": "port",
+    "value": "<%= ENV['POSTGRES_PORT'] %>",
+    "start_pos": 330,
+    "end_pos": 357,
+    "start_line": 15,
+    "end_line": 16,
+    "start_column": 9,
+    "end_column": 0
+  },
+  {
+    "key": "Warning",
+    "value": "The database defined as \"test\" will be erased and",
+    "start_pos": 399,
+    "end_pos": 448,
+    "start_line": 20,
+    "end_line": 21,
+    "start_column": 12,
+    "end_column": 0
+  }
+]

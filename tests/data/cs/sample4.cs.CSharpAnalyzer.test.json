@@ -1,0 +1,222 @@
+[
+  {
+    "key": "Annotation",
+    "value": "SqlServer:Identity",
+    "start_pos": 473,
+    "end_pos": 491,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 37,
+    "end_column": 55
+  },
+  {
+    "key": "PrimaryKey",
+    "value": "PK_Address",
+    "start_pos": 1949,
+    "end_pos": 1959,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 38,
+    "end_column": 48
+  },
+  {
+    "key": "Annotation",
+    "value": "SqlServer:Identity",
+    "start_pos": 2238,
+    "end_pos": 2256,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 37,
+    "end_column": 55
+  },
+  {
+    "key": "PrimaryKey",
+    "value": "PK_Country",
+    "start_pos": 2613,
+    "end_pos": 2623,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 38,
+    "end_column": 48
+  },
+  {
+    "key": "Annotation",
+    "value": "SqlServer:Identity",
+    "start_pos": 2896,
+    "end_pos": 2914,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 37,
+    "end_column": 55
+  },
+  {
+    "key": "PrimaryKey",
+    "value": "PK_Employee",
+    "start_pos": 4366,
+    "end_pos": 4377,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 38,
+    "end_column": 49
+  },
+  {
+    "key": "Annotation",
+    "value": "SqlServer:Identity",
+    "start_pos": 4669,
+    "end_pos": 4687,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 37,
+    "end_column": 55
+  },
+  {
+    "key": "PrimaryKey",
+    "value": "PK_EmployeeDependent",
+    "start_pos": 5590,
+    "end_pos": 5610,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 38,
+    "end_column": 58
+  },
+  {
+    "key": "Annotation",
+    "value": "SqlServer:Identity",
+    "start_pos": 5908,
+    "end_pos": 5926,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 37,
+    "end_column": 55
+  },
+  {
+    "key": "PrimaryKey",
+    "value": "PK_EmployeeDesignations",
+    "start_pos": 6553,
+    "end_pos": 6576,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 38,
+    "end_column": 61
+  },
+  {
+    "key": "Annotation",
+    "value": "SqlServer:Identity",
+    "start_pos": 6884,
+    "end_pos": 6902,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 37,
+    "end_column": 55
+  },
+  {
+    "key": "PrimaryKey",
+    "value": "PK_EmployeeEducationDetails",
+    "start_pos": 8256,
+    "end_pos": 8283,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 38,
+    "end_column": 65
+  },
+  {
+    "key": "Annotation",
+    "value": "SqlServer:Identity",
+    "start_pos": 8580,
+    "end_pos": 8598,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 37,
+    "end_column": 55
+  },
+  {
+    "key": "PrimaryKey",
+    "value": "PK_EmployeeEPFO",
+    "start_pos": 9444,
+    "end_pos": 9459,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 38,
+    "end_column": 53
+  },
+  {
+    "key": "Annotation",
+    "value": "SqlServer:Identity",
+    "start_pos": 9753,
+    "end_pos": 9771,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 37,
+    "end_column": 55
+  },
+  {
+    "key": "PrimaryKey",
+    "value": "PK_EmployeeNominees",
+    "start_pos": 10758,
+    "end_pos": 10777,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 38,
+    "end_column": 57
+  },
+  {
+    "key": "Annotation",
+    "value": "SqlServer:Identity",
+    "start_pos": 11089,
+    "end_pos": 11107,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 37,
+    "end_column": 55
+  },
+  {
+    "key": "PrimaryKey",
+    "value": "PK_EmployeePersonalDetails",
+    "start_pos": 13128,
+    "end_pos": 13154,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 38,
+    "end_column": 64
+  },
+  {
+    "key": "Annotation",
+    "value": "SqlServer:Identity",
+    "start_pos": 13472,
+    "end_pos": 13490,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 37,
+    "end_column": 55
+  },
+  {
+    "key": "PrimaryKey",
+    "value": "PK_EmployeePreviousCompany",
+    "start_pos": 15024,
+    "end_pos": 15050,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 38,
+    "end_column": 64
+  },
+  {
+    "key": "Annotation",
+    "value": "SqlServer:Identity",
+    "start_pos": 15333,
+    "end_pos": 15351,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 37,
+    "end_column": 55
+  },
+  {
+    "key": "PrimaryKey",
+    "value": "PK_States",
+    "start_pos": 15773,
+    "end_pos": 15782,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 38,
+    "end_column": 47
+  }
+]

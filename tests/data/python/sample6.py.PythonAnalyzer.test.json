@@ -1,0 +1,152 @@
+[
+  {
+    "key": "failobj",
+    "value": "marathon.mesos",
+    "start_pos": 255,
+    "end_pos": 268,
+    "start_line": 10,
+    "end_line": 10,
+    "start_column": 61,
+    "end_column": 74
+  },
+  {
+    "key": "failobj",
+    "value": "8080",
+    "start_pos": 334,
+    "end_pos": 337,
+    "start_line": 11,
+    "end_line": 11,
+    "start_column": 61,
+    "end_column": 64
+  },
+  {
+    "key": "failobj",
+    "value": "0",
+    "start_pos": 464,
+    "end_pos": 464,
+    "start_line": 13,
+    "end_line": 13,
+    "start_column": 54,
+    "end_column": 54
+  },
+  {
+    "key": "demo_upgrade_json",
+    "value": "demo-upgrade.json",
+    "start_pos": 488,
+    "end_pos": 504,
+    "start_line": 15,
+    "end_line": 15,
+    "start_column": 19,
+    "end_column": 35
+  },
+  {
+    "key": "latest_metadata_json",
+    "value": "./versions/latest/apps/changed/metadata.json",
+    "start_pos": 529,
+    "end_pos": 572,
+    "start_line": 16,
+    "end_line": 16,
+    "start_column": 22,
+    "end_column": 65
+  },
+  {
+    "key": "webhook_url",
+    "value": "https://hooks.zapier.com/hooks/catch/523819/a46c4d/",
+    "start_pos": 588,
+    "end_pos": 638,
+    "start_line": 17,
+    "end_line": 17,
+    "start_column": 13,
+    "end_column": 63
+  },
+  {
+    "key": "job",
+    "value": "update-demo",
+    "start_pos": 1016,
+    "end_pos": 1026,
+    "start_line": 28,
+    "end_line": 28,
+    "start_column": 30,
+    "end_column": 40
+  },
+  {
+    "key": "result",
+    "value": "FAIL",
+    "start_pos": 1041,
+    "end_pos": 1044,
+    "start_line": 28,
+    "end_line": 28,
+    "start_column": 55,
+    "end_column": 58
+  },
+  {
+    "key": "job",
+    "value": "update-demo",
+    "start_pos": 1202,
+    "end_pos": 1212,
+    "start_line": 30,
+    "end_line": 30,
+    "start_column": 30,
+    "end_column": 40
+  },
+  {
+    "key": "result",
+    "value": "PASS",
+    "start_pos": 1227,
+    "end_pos": 1230,
+    "start_line": 30,
+    "end_line": 30,
+    "start_column": 55,
+    "end_column": 58
+  },
+  {
+    "key": "Content-type",
+    "value": "application/json",
+    "start_pos": 1441,
+    "end_pos": 1456,
+    "start_line": 33,
+    "end_line": 33,
+    "start_column": 44,
+    "end_column": 59
+  },
+  {
+    "key": "Accept",
+    "value": "application/json",
+    "start_pos": 1471,
+    "end_pos": 1486,
+    "start_line": 33,
+    "end_line": 33,
+    "start_column": 74,
+    "end_column": 89
+  },
+  {
+    "key": "Content-Type",
+    "value": "application/json",
+    "start_pos": 1889,
+    "end_pos": 1904,
+    "start_line": 42,
+    "end_line": 42,
+    "start_column": 86,
+    "end_column": 101
+  },
+  {
+    "key": "wait_type",
+    "value": "deployments",
+    "start_pos": 1948,
+    "end_pos": 1958,
+    "start_line": 43,
+    "end_line": 43,
+    "start_column": 39,
+    "end_column": 49
+  },
+  {
+    "key": "msg",
+    "value": "app creation",
+    "start_pos": 2010,
+    "end_pos": 2021,
+    "start_line": 44,
+    "end_line": 44,
+    "start_column": 33,
+    "end_column": 44
+  }
+]

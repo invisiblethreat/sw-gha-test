@@ -1,0 +1,142 @@
+[
+  {
+    "key": "checkParameterIsNotNull",
+    "value": "clients",
+    "start_pos": 10042,
+    "end_pos": 10048,
+    "start_line": 123,
+    "end_line": 123,
+    "start_column": 69,
+    "end_column": 75
+  },
+  {
+    "key": "withClient",
+    "value": "clientapp",
+    "start_pos": 10092,
+    "end_pos": 10100,
+    "start_line": 124,
+    "end_line": 124,
+    "start_column": 39,
+    "end_column": 47
+  },
+  {
+    "key": "encode",
+    "value": "123456",
+    "start_pos": 10159,
+    "end_pos": 10164,
+    "start_line": 124,
+    "end_line": 124,
+    "start_column": 106,
+    "end_column": 111
+  },
+  {
+    "key": "authorizedGrantTypes",
+    "value": "implicit",
+    "start_pos": 10204,
+    "end_pos": 10211,
+    "start_line": 124,
+    "end_line": 124,
+    "start_column": 151,
+    "end_column": 158
+  },
+  {
+    "key": "authorizedGrantTypes",
+    "value": "password",
+    "start_pos": 10216,
+    "end_pos": 10223,
+    "start_line": 124,
+    "end_line": 124,
+    "start_column": 163,
+    "end_column": 170
+  },
+  {
+    "key": "authorizedGrantTypes",
+    "value": "authorization_code",
+    "start_pos": 10228,
+    "end_pos": 10245,
+    "start_line": 124,
+    "end_line": 124,
+    "start_column": 175,
+    "end_column": 192
+  },
+  {
+    "key": "authorizedGrantTypes",
+    "value": "refresh_token",
+    "start_pos": 10250,
+    "end_pos": 10262,
+    "start_line": 124,
+    "end_line": 124,
+    "start_column": 197,
+    "end_column": 209
+  },
+  {
+    "key": "scopes",
+    "value": "read",
+    "start_pos": 10288,
+    "end_pos": 10291,
+    "start_line": 124,
+    "end_line": 124,
+    "start_column": 235,
+    "end_column": 238
+  },
+  {
+    "key": "scopes",
+    "value": "write",
+    "start_pos": 10296,
+    "end_pos": 10300,
+    "start_line": 124,
+    "end_line": 124,
+    "start_column": 243,
+    "end_column": 247
+  },
+  {
+    "key": "checkParameterIsNotNull",
+    "value": "userDetailsService",
+    "start_pos": 10581,
+    "end_pos": 10598,
+    "start_line": 130,
+    "end_line": 130,
+    "start_column": 80,
+    "end_column": 97
+  },
+  {
+    "key": "tokenKeyAccess",
+    "value": "permitAll()",
+    "start_pos": 11094,
+    "end_pos": 11104,
+    "start_line": 139,
+    "end_line": 139,
+    "start_column": 98,
+    "end_column": 108
+  },
+  {
+    "key": "checkParameterIsNotNull",
+    "value": "userDetailsService",
+    "start_pos": 11732,
+    "end_pos": 11749,
+    "start_line": 158,
+    "end_line": 158,
+    "start_column": 80,
+    "end_column": 97
+  },
+  {
+    "key": "checkParameterIsNotNull",
+    "value": "authenticationManager",
+    "start_pos": 11837,
+    "end_pos": 11857,
+    "start_line": 159,
+    "end_line": 159,
+    "start_column": 83,
+    "end_column": 103
+  },
+  {
+    "key": "checkParameterIsNotNull",
+    "value": "passwordEncoder",
+    "start_pos": 11939,
+    "end_pos": 11953,
+    "start_line": 160,
+    "end_line": 160,
+    "start_column": 77,
+    "end_column": 91
+  }
+]

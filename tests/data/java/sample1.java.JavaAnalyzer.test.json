@@ -1,0 +1,242 @@
+[
+  {
+    "key": "LICENSE_FILE_NAME",
+    "value": "licenseKey.xml",
+    "start_pos": 563,
+    "end_pos": 576,
+    "start_line": 17,
+    "end_line": 17,
+    "start_column": 51,
+    "end_column": 64
+  },
+  {
+    "key": "USER_HOST",
+    "value": "user",
+    "start_pos": 624,
+    "end_pos": 627,
+    "start_line": 18,
+    "end_line": 18,
+    "start_column": 44,
+    "end_column": 47
+  },
+  {
+    "key": "PRODUCT_NAME",
+    "value": "SpectraGuard Enterprise",
+    "start_pos": 677,
+    "end_pos": 699,
+    "start_line": 19,
+    "end_line": 19,
+    "start_column": 46,
+    "end_column": 68
+  },
+  {
+    "key": "APPLICATION_PASSWORD",
+    "value": "arFNTeFdbetraMtEbvtwU4==",
+    "start_pos": 758,
+    "end_pos": 781,
+    "start_line": 20,
+    "end_line": 20,
+    "start_column": 55,
+    "end_column": 78
+  },
+  {
+    "key": "PROGNAME",
+    "value": "LicenseInspector",
+    "start_pos": 828,
+    "end_pos": 843,
+    "start_line": 21,
+    "end_line": 21,
+    "start_column": 43,
+    "end_column": 58
+  },
+  {
+    "key": "KEY_NODE_STRING",
+    "value": "key",
+    "start_pos": 897,
+    "end_pos": 899,
+    "start_line": 22,
+    "end_line": 22,
+    "start_column": 50,
+    "end_column": 52
+  },
+  {
+    "key": "EXPIRY_DATE",
+    "value": "EXPIRATION_DATE",
+    "start_pos": 949,
+    "end_pos": 963,
+    "start_line": 23,
+    "end_line": 23,
+    "start_column": 46,
+    "end_column": 60
+  },
+  {
+    "key": "var1",
+    "value": ";",
+    "start_pos": 1153,
+    "end_pos": 1153,
+    "start_line": 27,
+    "end_line": 27,
+    "start_column": 72,
+    "end_column": 72
+  },
+  {
+    "key": "var3",
+    "value": "=",
+    "start_pos": 1332,
+    "end_pos": 1332,
+    "start_line": 32,
+    "end_line": 32,
+    "start_column": 77,
+    "end_column": 77
+  },
+  {
+    "key": "println",
+    "value": "LicenseInspector: Error in parsing license information.",
+    "start_pos": 1563,
+    "end_pos": 1617,
+    "start_line": 38,
+    "end_line": 38,
+    "start_column": 32,
+    "end_column": 86
+  },
+  {
+    "key": "println",
+    "value": "Usage: java LicenseInspector <keyfile-path> [<param> ...]",
+    "start_pos": 2812,
+    "end_pos": 2868,
+    "start_line": 87,
+    "end_line": 87,
+    "start_column": 29,
+    "end_column": 85
+  },
+  {
+    "key": "println",
+    "value": "LicenseInspector: Corrupted or missing license.",
+    "start_pos": 3089,
+    "end_pos": 3135,
+    "start_line": 95,
+    "end_line": 95,
+    "start_column": 29,
+    "end_column": 75
+  },
+  {
+    "key": "checkLicenseKey",
+    "value": "user",
+    "start_pos": 3342,
+    "end_pos": 3345,
+    "start_line": 102,
+    "end_line": 102,
+    "start_column": 105,
+    "end_column": 108
+  },
+  {
+    "key": "checkLicenseKey",
+    "value": "SpectraGuard Enterprise",
+    "start_pos": 3354,
+    "end_pos": 3376,
+    "start_line": 102,
+    "end_line": 102,
+    "start_column": 117,
+    "end_column": 139
+  },
+  {
+    "key": "checkLicenseKey",
+    "value": "arFNTeFdbetraMtEbvtwU4==",
+    "start_pos": 3381,
+    "end_pos": 3404,
+    "start_line": 102,
+    "end_line": 102,
+    "start_column": 144,
+    "end_column": 167
+  },
+  {
+    "key": "println",
+    "value": "LicenseInspector: Invalid or expired license",
+    "start_pos": 3502,
+    "end_pos": 3545,
+    "start_line": 104,
+    "end_line": 104,
+    "start_column": 29,
+    "end_column": 72
+  },
+  {
+    "key": "println",
+    "value": "LicenseInspector:null license map",
+    "start_pos": 3726,
+    "end_pos": 3758,
+    "start_line": 111,
+    "end_line": 111,
+    "start_column": 29,
+    "end_column": 61
+  },
+  {
+    "key": "var6",
+    "value": "dd-MM-yy",
+    "start_pos": 3849,
+    "end_pos": 3856,
+    "start_line": 115,
+    "end_line": 115,
+    "start_column": 52,
+    "end_column": 59
+  },
+  {
+    "key": "get",
+    "value": "EXPIRATION_DATE",
+    "start_pos": 3899,
+    "end_pos": 3913,
+    "start_line": 116,
+    "end_line": 116,
+    "start_column": 38,
+    "end_column": 52
+  },
+  {
+    "key": "println",
+    "value": "LicenseInspector: No expiry date in license!",
+    "start_pos": 3973,
+    "end_pos": 4016,
+    "start_line": 118,
+    "end_line": 118,
+    "start_column": 29,
+    "end_column": 72
+  },
+  {
+    "key": "println",
+    "value": "LicenseInspector: Invalid date in license.",
+    "start_pos": 4410,
+    "end_pos": 4451,
+    "start_line": 134,
+    "end_line": 134,
+    "start_column": 29,
+    "end_column": 70
+  },
+  {
+    "key": "println",
+    "value": "LicenseInspector: License expired.",
+    "start_pos": 4610,
+    "end_pos": 4643,
+    "start_line": 140,
+    "end_line": 140,
+    "start_column": 29,
+    "end_column": 62
+  },
+  {
+    "key": "println",
+    "value": "=",
+    "start_pos": 4961,
+    "end_pos": 4961,
+    "start_line": 151,
+    "end_line": 151,
+    "start_column": 40,
+    "end_column": 40
+  },
+  {
+    "key": "println",
+    "value": "=",
+    "start_pos": 5193,
+    "end_pos": 5193,
+    "start_line": 157,
+    "end_line": 157,
+    "start_column": 49,
+    "end_column": 49
+  }
+]

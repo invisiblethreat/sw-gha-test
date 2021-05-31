@@ -1,0 +1,22 @@
+[
+  {
+    "key": "DATABASE_URL",
+    "value": "postgres://uanunct5nbsu28:p43jtsqnf88fhgfug5qrorr1rzz@ec2-18-86-89-207.compute-1.amazonaws.com:5432/d9qdapk5e420",
+    "start_pos": 34,
+    "end_pos": 146,
+    "start_line": 3,
+    "end_line": 4,
+    "start_column": 21,
+    "end_column": 0
+  },
+  {
+    "key": "NODE_ENV",
+    "value": "development",
+    "start_pos": 163,
+    "end_pos": 174,
+    "start_line": 4,
+    "end_line": 3,
+    "start_column": 17,
+    "end_column": 0
+  }
+]

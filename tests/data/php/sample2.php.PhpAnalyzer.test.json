@@ -1,0 +1,1222 @@
+[
+  {
+    "key": "defined",
+    "value": "BASEPATH",
+    "start_pos": 15,
+    "end_pos": 23,
+    "start_line": 2,
+    "end_line": 2,
+    "start_column": 9,
+    "end_column": 17
+  },
+  {
+    "key": "$cart_event",
+    "value": "cart_event",
+    "start_pos": 724,
+    "end_pos": 734,
+    "start_line": 30,
+    "end_line": 30,
+    "start_column": 63,
+    "end_column": 73
+  },
+  {
+    "key": "date",
+    "value": "Y-m-d H:i:s",
+    "start_pos": 1207,
+    "end_pos": 1218,
+    "start_line": 39,
+    "end_line": 39,
+    "start_column": 58,
+    "end_column": 69
+  },
+  {
+    "key": "strtotime",
+    "value": "cart_captcha_session",
+    "start_pos": 1241,
+    "end_pos": 1261,
+    "start_line": 39,
+    "end_line": 39,
+    "start_column": 92,
+    "end_column": 112
+  },
+  {
+    "key": "strtotime",
+    "value": "g-recaptcha-date-time",
+    "start_pos": 1265,
+    "end_pos": 1286,
+    "start_line": 39,
+    "end_line": 39,
+    "start_column": 116,
+    "end_column": 137
+  },
+  {
+    "key": "intval",
+    "value": "cart_captcha_time_remaining",
+    "start_pos": 1578,
+    "end_pos": 1605,
+    "start_line": 44,
+    "end_line": 44,
+    "start_column": 21,
+    "end_column": 48
+  },
+  {
+    "key": "sizeof",
+    "value": "cart_session",
+    "start_pos": 1872,
+    "end_pos": 1884,
+    "start_line": 52,
+    "end_line": 52,
+    "start_column": 21,
+    "end_column": 33
+  },
+  {
+    "key": "sizeof",
+    "value": "cart_additional_session",
+    "start_pos": 1904,
+    "end_pos": 1927,
+    "start_line": 52,
+    "end_line": 52,
+    "start_column": 53,
+    "end_column": 76
+  },
+  {
+    "key": "$array",
+    "value": "event_seats",
+    "start_pos": 2023,
+    "end_pos": 2034,
+    "start_line": 60,
+    "end_line": 60,
+    "start_column": 17,
+    "end_column": 28
+  },
+  {
+    "key": "$occupied_seat_numbers",
+    "value": "event_id",
+    "start_pos": 2131,
+    "end_pos": 2139,
+    "start_line": 61,
+    "end_line": 61,
+    "start_column": 78,
+    "end_column": 86
+  },
+  {
+    "key": "$missing_seat_numbers",
+    "value": "event_id",
+    "start_pos": 2326,
+    "end_pos": 2334,
+    "start_line": 63,
+    "end_line": 63,
+    "start_column": 78,
+    "end_column": 86
+  },
+  {
+    "key": "date",
+    "value": "Y-m-d H:i:s",
+    "start_pos": 3077,
+    "end_pos": 3088,
+    "start_line": 83,
+    "end_line": 83,
+    "start_column": 58,
+    "end_column": 69
+  },
+  {
+    "key": "strtotime",
+    "value": "cart_captcha_session",
+    "start_pos": 3111,
+    "end_pos": 3131,
+    "start_line": 83,
+    "end_line": 83,
+    "start_column": 92,
+    "end_column": 112
+  },
+  {
+    "key": "strtotime",
+    "value": "g-recaptcha-date-time",
+    "start_pos": 3135,
+    "end_pos": 3156,
+    "start_line": 83,
+    "end_line": 83,
+    "start_column": 116,
+    "end_column": 137
+  },
+  {
+    "key": "intval",
+    "value": "cart_captcha_time_remaining",
+    "start_pos": 3303,
+    "end_pos": 3330,
+    "start_line": 86,
+    "end_line": 86,
+    "start_column": 21,
+    "end_column": 48
+  },
+  {
+    "key": "sizeof",
+    "value": "cart_session",
+    "start_pos": 3597,
+    "end_pos": 3609,
+    "start_line": 94,
+    "end_line": 94,
+    "start_column": 21,
+    "end_column": 33
+  },
+  {
+    "key": "sizeof",
+    "value": "cart_additional_session",
+    "start_pos": 3629,
+    "end_pos": 3652,
+    "start_line": 94,
+    "end_line": 94,
+    "start_column": 53,
+    "end_column": 76
+  },
+  {
+    "key": "$cart_user_session",
+    "value": "cart_user_session",
+    "start_pos": 3790,
+    "end_pos": 3807,
+    "start_line": 101,
+    "end_line": 101,
+    "start_column": 50,
+    "end_column": 67
+  },
+  {
+    "key": "intval",
+    "value": "additional_charity",
+    "start_pos": 3971,
+    "end_pos": 3989,
+    "start_line": 104,
+    "end_line": 104,
+    "start_column": 54,
+    "end_column": 72
+  },
+  {
+    "key": "$cart_event",
+    "value": "cart_event",
+    "start_pos": 4309,
+    "end_pos": 4319,
+    "start_line": 115,
+    "end_line": 115,
+    "start_column": 63,
+    "end_column": 73
+  },
+  {
+    "key": "$array",
+    "value": "event_seats",
+    "start_pos": 4447,
+    "end_pos": 4458,
+    "start_line": 119,
+    "end_line": 119,
+    "start_column": 17,
+    "end_column": 28
+  },
+  {
+    "key": "$occupied_seat_numbers",
+    "value": "event_id",
+    "start_pos": 4555,
+    "end_pos": 4563,
+    "start_line": 120,
+    "end_line": 120,
+    "start_column": 78,
+    "end_column": 86
+  },
+  {
+    "key": "$missing_seat_numbers",
+    "value": "event_id",
+    "start_pos": 4750,
+    "end_pos": 4758,
+    "start_line": 122,
+    "end_line": 122,
+    "start_column": 78,
+    "end_column": 86
+  },
+  {
+    "key": "$temp_cart_session",
+    "value": "cart_session",
+    "start_pos": 5221,
+    "end_pos": 5233,
+    "start_line": 138,
+    "end_line": 138,
+    "start_column": 30,
+    "end_column": 42
+  },
+  {
+    "key": "$temp_cart_additional_session",
+    "value": "cart_additional_session",
+    "start_pos": 5322,
+    "end_pos": 5345,
+    "start_line": 139,
+    "end_line": 139,
+    "start_column": 41,
+    "end_column": 64
+  },
+  {
+    "key": "date",
+    "value": "Y-m-d H:i:s",
+    "start_pos": 5551,
+    "end_pos": 5562,
+    "start_line": 144,
+    "end_line": 144,
+    "start_column": 58,
+    "end_column": 69
+  },
+  {
+    "key": "strtotime",
+    "value": "cart_captcha_session",
+    "start_pos": 5585,
+    "end_pos": 5605,
+    "start_line": 144,
+    "end_line": 144,
+    "start_column": 92,
+    "end_column": 112
+  },
+  {
+    "key": "strtotime",
+    "value": "g-recaptcha-date-time",
+    "start_pos": 5609,
+    "end_pos": 5630,
+    "start_line": 144,
+    "end_line": 144,
+    "start_column": 116,
+    "end_column": 137
+  },
+  {
+    "key": "intval",
+    "value": "cart_captcha_time_remaining",
+    "start_pos": 5777,
+    "end_pos": 5804,
+    "start_line": 147,
+    "end_line": 147,
+    "start_column": 21,
+    "end_column": 48
+  },
+  {
+    "key": "sizeof",
+    "value": "cart_session",
+    "start_pos": 6072,
+    "end_pos": 6084,
+    "start_line": 156,
+    "end_line": 156,
+    "start_column": 21,
+    "end_column": 33
+  },
+  {
+    "key": "sizeof",
+    "value": "cart_additional_session",
+    "start_pos": 6104,
+    "end_pos": 6127,
+    "start_line": 156,
+    "end_line": 156,
+    "start_column": 53,
+    "end_column": 76
+  },
+  {
+    "key": "$coupon_details",
+    "value": "customer_promo_code",
+    "start_pos": 6486,
+    "end_pos": 6505,
+    "start_line": 169,
+    "end_line": 169,
+    "start_column": 81,
+    "end_column": 100
+  },
+  {
+    "key": "$coupon_type",
+    "value": "",
+    "start_pos": 6529,
+    "end_pos": 6529,
+    "start_line": 170,
+    "end_line": 170,
+    "start_column": 19,
+    "end_column": 19
+  },
+  {
+    "key": "$coupon_value",
+    "value": "",
+    "start_pos": 6551,
+    "end_pos": 6551,
+    "start_line": 171,
+    "end_line": 171,
+    "start_column": 19,
+    "end_column": 19
+  },
+  {
+    "key": "$coupon_type",
+    "value": "coupon_type",
+    "start_pos": 6708,
+    "end_pos": 6719,
+    "start_line": 174,
+    "end_line": 174,
+    "start_column": 77,
+    "end_column": 88
+  },
+  {
+    "key": "$coupon_value",
+    "value": "coupon_value",
+    "start_pos": 6801,
+    "end_pos": 6813,
+    "start_line": 175,
+    "end_line": 175,
+    "start_column": 78,
+    "end_column": 90
+  },
+  {
+    "key": "$coupon_code",
+    "value": "coupon_code",
+    "start_pos": 6893,
+    "end_pos": 6904,
+    "start_line": 176,
+    "end_line": 176,
+    "start_column": 76,
+    "end_column": 87
+  },
+  {
+    "key": "$cart_user_session",
+    "value": "cart_user_session",
+    "start_pos": 7112,
+    "end_pos": 7129,
+    "start_line": 184,
+    "end_line": 184,
+    "start_column": 53,
+    "end_column": 70
+  },
+  {
+    "key": "$additonal_details_charity_amount",
+    "value": "additonal_details",
+    "start_pos": 7238,
+    "end_pos": 7255,
+    "start_line": 188,
+    "end_line": 188,
+    "start_column": 61,
+    "end_column": 78
+  },
+  {
+    "key": "$additonal_details_charity_amount",
+    "value": "additonal_details",
+    "start_pos": 7324,
+    "end_pos": 7341,
+    "start_line": 189,
+    "end_line": 189,
+    "start_column": 60,
+    "end_column": 77
+  },
+  {
+    "key": "$temp_cart_user_session",
+    "value": "cart_user_session",
+    "start_pos": 8529,
+    "end_pos": 8546,
+    "start_line": 215,
+    "end_line": 215,
+    "start_column": 35,
+    "end_column": 52
+  },
+  {
+    "key": "$cart_session",
+    "value": "cart_session",
+    "start_pos": 8645,
+    "end_pos": 8657,
+    "start_line": 219,
+    "end_line": 219,
+    "start_column": 25,
+    "end_column": 37
+  },
+  {
+    "key": "sizeof",
+    "value": "selected_tables",
+    "start_pos": 8763,
+    "end_pos": 8778,
+    "start_line": 221,
+    "end_line": 221,
+    "start_column": 49,
+    "end_column": 64
+  },
+  {
+    "key": "$unit_price",
+    "value": "ticket_section_name",
+    "start_pos": 8875,
+    "end_pos": 8894,
+    "start_line": 226,
+    "end_line": 226,
+    "start_column": 28,
+    "end_column": 47
+  },
+  {
+    "key": "$I",
+    "value": "selected_tables",
+    "start_pos": 9034,
+    "end_pos": 9049,
+    "start_line": 230,
+    "end_line": 230,
+    "start_column": 30,
+    "end_column": 45
+  },
+  {
+    "key": "intval",
+    "value": "selected_tables",
+    "start_pos": 9278,
+    "end_pos": 9293,
+    "start_line": 233,
+    "end_line": 233,
+    "start_column": 62,
+    "end_column": 77
+  },
+  {
+    "key": "intval",
+    "value": "seat_quantity",
+    "start_pos": 9301,
+    "end_pos": 9314,
+    "start_line": 233,
+    "end_line": 233,
+    "start_column": 85,
+    "end_column": 98
+  },
+  {
+    "key": "$unit_price",
+    "value": "table_price",
+    "start_pos": 9424,
+    "end_pos": 9435,
+    "start_line": 239,
+    "end_line": 239,
+    "start_column": 54,
+    "end_column": 65
+  },
+  {
+    "key": "$unit_price",
+    "value": "unit_min_purchase",
+    "start_pos": 9543,
+    "end_pos": 9560,
+    "start_line": 242,
+    "end_line": 242,
+    "start_column": 68,
+    "end_column": 85
+  },
+  {
+    "key": "$sub_total_price",
+    "value": "event",
+    "start_pos": 9781,
+    "end_pos": 9786,
+    "start_line": 252,
+    "end_line": 252,
+    "start_column": 9,
+    "end_column": 14
+  },
+  {
+    "key": "$cart_event",
+    "value": "cart_event",
+    "start_pos": 9835,
+    "end_pos": 9845,
+    "start_line": 252,
+    "end_line": 252,
+    "start_column": 63,
+    "end_column": 73
+  },
+  {
+    "key": "$event_additional_charges",
+    "value": "event",
+    "start_pos": 9923,
+    "end_pos": 9928,
+    "start_line": 256,
+    "end_line": 256,
+    "start_column": 37,
+    "end_column": 42
+  },
+  {
+    "key": "$I",
+    "value": "additional_charge_type",
+    "start_pos": 10138,
+    "end_pos": 10160,
+    "start_line": 260,
+    "end_line": 260,
+    "start_column": 39,
+    "end_column": 61
+  },
+  {
+    "key": "$event_additional_charge_total",
+    "value": "additional_charge",
+    "start_pos": 10276,
+    "end_pos": 10293,
+    "start_line": 261,
+    "end_line": 261,
+    "start_column": 102,
+    "end_column": 119
+  },
+  {
+    "key": "round",
+    "value": "additional_charge",
+    "start_pos": 10773,
+    "end_pos": 10790,
+    "start_line": 272,
+    "end_line": 272,
+    "start_column": 83,
+    "end_column": 100
+  },
+  {
+    "key": "$sub_total_price",
+    "value": "cart_model",
+    "start_pos": 11103,
+    "end_pos": 11113,
+    "start_line": 282,
+    "end_line": 282,
+    "start_column": 22,
+    "end_column": 32
+  },
+  {
+    "key": "$cart_data",
+    "value": "cart_session",
+    "start_pos": 11191,
+    "end_pos": 11203,
+    "start_line": 286,
+    "end_line": 286,
+    "start_column": 4,
+    "end_column": 16
+  },
+  {
+    "key": "$UNIQ_CART_ID",
+    "value": "item_count",
+    "start_pos": 11630,
+    "end_pos": 11640,
+    "start_line": 298,
+    "end_line": 298,
+    "start_column": 21,
+    "end_column": 31
+  },
+  {
+    "key": "$UNIQ_CART_ID",
+    "value": "order_post_details",
+    "start_pos": 11806,
+    "end_pos": 11824,
+    "start_line": 307,
+    "end_line": 307,
+    "start_column": 9,
+    "end_column": 27
+  },
+  {
+    "key": "sha1",
+    "value": "order_post_details",
+    "start_pos": 17546,
+    "end_pos": 17564,
+    "start_line": 383,
+    "end_line": 383,
+    "start_column": 86,
+    "end_column": 104
+  },
+  {
+    "key": "sha1",
+    "value": "DigestivePlain",
+    "start_pos": 17568,
+    "end_pos": 17582,
+    "start_line": 383,
+    "end_line": 383,
+    "start_column": 108,
+    "end_column": 122
+  },
+  {
+    "key": "$array",
+    "value": "event_seats",
+    "start_pos": 17805,
+    "end_pos": 17816,
+    "start_line": 388,
+    "end_line": 388,
+    "start_column": 17,
+    "end_column": 28
+  },
+  {
+    "key": "$occupied_seat_numbers",
+    "value": "event_id",
+    "start_pos": 17913,
+    "end_pos": 17921,
+    "start_line": 389,
+    "end_line": 389,
+    "start_column": 78,
+    "end_column": 86
+  },
+  {
+    "key": "$missing_seat_numbers",
+    "value": "event_id",
+    "start_pos": 18108,
+    "end_pos": 18116,
+    "start_line": 391,
+    "end_line": 391,
+    "start_column": 78,
+    "end_column": 86
+  },
+  {
+    "key": "explode",
+    "value": "_",
+    "start_pos": 18922,
+    "end_pos": 18923,
+    "start_line": 416,
+    "end_line": 416,
+    "start_column": 25,
+    "end_column": 26
+  },
+  {
+    "key": "explode",
+    "value": "orderID",
+    "start_pos": 18944,
+    "end_pos": 18951,
+    "start_line": 416,
+    "end_line": 416,
+    "start_column": 47,
+    "end_column": 54
+  },
+  {
+    "key": "$query",
+    "value": "cart_master",
+    "start_pos": 18993,
+    "end_pos": 19004,
+    "start_line": 417,
+    "end_line": 417,
+    "start_column": 37,
+    "end_column": 48
+  },
+  {
+    "key": "$cart_results",
+    "value": "cart_results",
+    "start_pos": 19088,
+    "end_pos": 19100,
+    "start_line": 420,
+    "end_line": 420,
+    "start_column": 10,
+    "end_column": 22
+  },
+  {
+    "key": "unserialize",
+    "value": "cart_session",
+    "start_pos": 19176,
+    "end_pos": 19188,
+    "start_line": 421,
+    "end_line": 421,
+    "start_column": 55,
+    "end_column": 67
+  },
+  {
+    "key": "explode",
+    "value": "_",
+    "start_pos": 20061,
+    "end_pos": 20062,
+    "start_line": 455,
+    "end_line": 455,
+    "start_column": 25,
+    "end_column": 26
+  },
+  {
+    "key": "explode",
+    "value": "orderID",
+    "start_pos": 20083,
+    "end_pos": 20090,
+    "start_line": 455,
+    "end_line": 455,
+    "start_column": 47,
+    "end_column": 54
+  },
+  {
+    "key": "$query",
+    "value": "cart_master",
+    "start_pos": 20132,
+    "end_pos": 20143,
+    "start_line": 456,
+    "end_line": 456,
+    "start_column": 37,
+    "end_column": 48
+  },
+  {
+    "key": "$cart_results",
+    "value": "cart_results",
+    "start_pos": 20227,
+    "end_pos": 20239,
+    "start_line": 459,
+    "end_line": 459,
+    "start_column": 10,
+    "end_column": 22
+  },
+  {
+    "key": "unserialize",
+    "value": "cart_session",
+    "start_pos": 20315,
+    "end_pos": 20327,
+    "start_line": 460,
+    "end_line": 460,
+    "start_column": 55,
+    "end_column": 67
+  },
+  {
+    "key": "$updateOrder",
+    "value": "ORDERID",
+    "start_pos": 20940,
+    "end_pos": 20947,
+    "start_line": 484,
+    "end_line": 484,
+    "start_column": 23,
+    "end_column": 30
+  },
+  {
+    "key": "$cartRef",
+    "value": "ORDERID",
+    "start_pos": 20999,
+    "end_pos": 21006,
+    "start_line": 488,
+    "end_line": 488,
+    "start_column": 24,
+    "end_column": 31
+  },
+  {
+    "key": "$payId",
+    "value": "COUPON_",
+    "start_pos": 21053,
+    "end_pos": 21060,
+    "start_line": 490,
+    "end_line": 490,
+    "start_column": 14,
+    "end_column": 21
+  },
+  {
+    "key": "redirect",
+    "value": "index.php/index/thankyou?orderID=",
+    "start_pos": 21186,
+    "end_pos": 21219,
+    "start_line": 494,
+    "end_line": 494,
+    "start_column": 25,
+    "end_column": 58
+  },
+  {
+    "key": "$updateOrder",
+    "value": "orderID",
+    "start_pos": 22022,
+    "end_pos": 22029,
+    "start_line": 521,
+    "end_line": 521,
+    "start_column": 23,
+    "end_column": 30
+  },
+  {
+    "key": "$cartRef",
+    "value": "orderID",
+    "start_pos": 22140,
+    "end_pos": 22147,
+    "start_line": 529,
+    "end_line": 529,
+    "start_column": 24,
+    "end_column": 31
+  },
+  {
+    "key": "$status",
+    "value": "STATUS",
+    "start_pos": 22175,
+    "end_pos": 22181,
+    "start_line": 530,
+    "end_line": 530,
+    "start_column": 24,
+    "end_column": 30
+  },
+  {
+    "key": "$payId",
+    "value": "PAYID",
+    "start_pos": 22209,
+    "end_pos": 22214,
+    "start_line": 531,
+    "end_line": 531,
+    "start_column": 24,
+    "end_column": 29
+  },
+  {
+    "key": "mFailReason",
+    "value": "Unknown payment error occurred",
+    "start_pos": 22393,
+    "end_pos": 22423,
+    "start_line": 540,
+    "end_line": 540,
+    "start_column": 24,
+    "end_column": 54
+  },
+  {
+    "key": "mWarning",
+    "value": "0",
+    "start_pos": 22482,
+    "end_pos": 22483,
+    "start_line": 544,
+    "end_line": 544,
+    "start_column": 9,
+    "end_column": 10
+  },
+  {
+    "key": "mFailReason",
+    "value": "Payment refused",
+    "start_pos": 22705,
+    "end_pos": 22720,
+    "start_line": 554,
+    "end_line": 554,
+    "start_column": 26,
+    "end_column": 41
+  },
+  {
+    "key": "mFailReason",
+    "value": "Unable to authorise",
+    "start_pos": 22786,
+    "end_pos": 22805,
+    "start_line": 558,
+    "end_line": 558,
+    "start_column": 26,
+    "end_column": 45
+  },
+  {
+    "key": "mFailReason",
+    "value": "There was a delay processing this transaction. We'll update you when your order is successful, or be in contact if there is an issue with the payment",
+    "start_pos": 23024,
+    "end_pos": 23173,
+    "start_line": 572,
+    "end_line": 572,
+    "start_column": 26,
+    "end_column": 175
+  },
+  {
+    "key": "mFailReason",
+    "value": "Barclaycard technical issue - please retry your payment at a later date",
+    "start_pos": 23274,
+    "end_pos": 23345,
+    "start_line": 576,
+    "end_line": 576,
+    "start_column": 26,
+    "end_column": 97
+  },
+  {
+    "key": "$data",
+    "value": "order_id",
+    "start_pos": 23914,
+    "end_pos": 23922,
+    "start_line": 604,
+    "end_line": 604,
+    "start_column": 4,
+    "end_column": 12
+  },
+  {
+    "key": "date",
+    "value": "Y-m-d H:i:s",
+    "start_pos": 24024,
+    "end_pos": 24035,
+    "start_line": 607,
+    "end_line": 607,
+    "start_column": 23,
+    "end_column": 34
+  },
+  {
+    "key": "explode",
+    "value": "_",
+    "start_pos": 24318,
+    "end_pos": 24319,
+    "start_line": 622,
+    "end_line": 622,
+    "start_column": 22,
+    "end_column": 23
+  },
+  {
+    "key": "$query",
+    "value": "cart_master",
+    "start_pos": 24369,
+    "end_pos": 24380,
+    "start_line": 624,
+    "end_line": 624,
+    "start_column": 36,
+    "end_column": 47
+  },
+  {
+    "key": "unserialize",
+    "value": "cart_session",
+    "start_pos": 24502,
+    "end_pos": 24514,
+    "start_line": 627,
+    "end_line": 627,
+    "start_column": 49,
+    "end_column": 61
+  },
+  {
+    "key": "unserialize",
+    "value": "cart_additional_session",
+    "start_pos": 24576,
+    "end_pos": 24599,
+    "start_line": 628,
+    "end_line": 628,
+    "start_column": 57,
+    "end_column": 80
+  },
+  {
+    "key": "unserialize",
+    "value": "cart_user_session",
+    "start_pos": 24657,
+    "end_pos": 24674,
+    "start_line": 629,
+    "end_line": 629,
+    "start_column": 53,
+    "end_column": 70
+  },
+  {
+    "key": "$data",
+    "value": "cart_id",
+    "start_pos": 24736,
+    "end_pos": 24743,
+    "start_line": 634,
+    "end_line": 634,
+    "start_column": 4,
+    "end_column": 11
+  },
+  {
+    "key": "date",
+    "value": "Y-m-d H:i:s",
+    "start_pos": 25513,
+    "end_pos": 25524,
+    "start_line": 647,
+    "end_line": 647,
+    "start_column": 19,
+    "end_column": 30
+  },
+  {
+    "key": "$data",
+    "value": "order_id",
+    "start_pos": 26165,
+    "end_pos": 26173,
+    "start_line": 663,
+    "end_line": 663,
+    "start_column": 5,
+    "end_column": 13
+  },
+  {
+    "key": "sizeof",
+    "value": "selected_tables",
+    "start_pos": 26500,
+    "end_pos": 26515,
+    "start_line": 671,
+    "end_line": 671,
+    "start_column": 43,
+    "end_column": 58
+  },
+  {
+    "key": "$table_qty",
+    "value": "ticket_section_name",
+    "start_pos": 26548,
+    "end_pos": 26567,
+    "start_line": 672,
+    "end_line": 672,
+    "start_column": 28,
+    "end_column": 47
+  },
+  {
+    "key": "$data",
+    "value": "order_id",
+    "start_pos": 26692,
+    "end_pos": 26700,
+    "start_line": 676,
+    "end_line": 676,
+    "start_column": 9,
+    "end_column": 17
+  },
+  {
+    "key": "$seat_qty",
+    "value": "selected_tables",
+    "start_pos": 27121,
+    "end_pos": 27136,
+    "start_line": 688,
+    "end_line": 688,
+    "start_column": 39,
+    "end_column": 54
+  },
+  {
+    "key": "$starting_seat",
+    "value": "current_seat_number",
+    "start_pos": 27640,
+    "end_pos": 27659,
+    "start_line": 697,
+    "end_line": 697,
+    "start_column": 36,
+    "end_column": 55
+  },
+  {
+    "key": "$data",
+    "value": "order_id",
+    "start_pos": 27743,
+    "end_pos": 27751,
+    "start_line": 701,
+    "end_line": 701,
+    "start_column": 10,
+    "end_column": 18
+  },
+  {
+    "key": "$event_details",
+    "value": "event_id",
+    "start_pos": 28250,
+    "end_pos": 28258,
+    "start_line": 716,
+    "end_line": 716,
+    "start_column": 62,
+    "end_column": 70
+  },
+  {
+    "key": "$email_content",
+    "value": "cart/order_confirmation",
+    "start_pos": 28301,
+    "end_pos": 28324,
+    "start_line": 717,
+    "end_line": 717,
+    "start_column": 38,
+    "end_column": 61
+  },
+  {
+    "key": "$msg",
+    "value": "A payment was unable to be processed and is waiting for feedback from Barclaycard.\n\nPlease check your Barclaycard account for payment for the order. If payment has been taken, please move the order to approved from your order retrieval area.\n\nOrder cart ref: ",
+    "start_pos": 29002,
+    "end_pos": 29261,
+    "start_line": 730,
+    "end_line": 730,
+    "start_column": 17,
+    "end_column": 276
+  },
+  {
+    "key": "$mNotificationEmails",
+    "value": "site_admin_email",
+    "start_pos": 29067,
+    "end_pos": 29083,
+    "start_line": 732,
+    "end_line": 732,
+    "start_column": 52,
+    "end_column": 68
+  },
+  {
+    "key": "mail",
+    "value": "Barclaycard - pending transaction",
+    "start_pos": 29142,
+    "end_pos": 29175,
+    "start_line": 734,
+    "end_line": 734,
+    "start_column": 14,
+    "end_column": 47
+  },
+  {
+    "key": "trim",
+    "value": "cart_user_session",
+    "start_pos": 29281,
+    "end_pos": 29298,
+    "start_line": 741,
+    "end_line": 741,
+    "start_column": 27,
+    "end_column": 44
+  },
+  {
+    "key": "trim",
+    "value": "billing_details",
+    "start_pos": 29302,
+    "end_pos": 29317,
+    "start_line": 741,
+    "end_line": 741,
+    "start_column": 48,
+    "end_column": 63
+  },
+  {
+    "key": "trim",
+    "value": "email",
+    "start_pos": 29321,
+    "end_pos": 29326,
+    "start_line": 741,
+    "end_line": 741,
+    "start_column": 67,
+    "end_column": 72
+  },
+  {
+    "key": "trim",
+    "value": "cart_user_session",
+    "start_pos": 29358,
+    "end_pos": 29375,
+    "start_line": 742,
+    "end_line": 742,
+    "start_column": 27,
+    "end_column": 44
+  },
+  {
+    "key": "trim",
+    "value": "user_details",
+    "start_pos": 29379,
+    "end_pos": 29391,
+    "start_line": 742,
+    "end_line": 742,
+    "start_column": 48,
+    "end_column": 60
+  },
+  {
+    "key": "trim",
+    "value": "customer_email",
+    "start_pos": 29395,
+    "end_pos": 29409,
+    "start_line": 742,
+    "end_line": 742,
+    "start_column": 64,
+    "end_column": 78
+  },
+  {
+    "key": "$cc_email",
+    "value": "email",
+    "start_pos": 29439,
+    "end_pos": 29444,
+    "start_line": 743,
+    "end_line": 743,
+    "start_column": 25,
+    "end_column": 30
+  },
+  {
+    "key": "$cart_id",
+    "value": "cart_id",
+    "start_pos": 30429,
+    "end_pos": 30436,
+    "start_line": 773,
+    "end_line": 773,
+    "start_column": 36,
+    "end_column": 43
+  },
+  {
+    "key": "$query",
+    "value": "cart_master",
+    "start_pos": 30551,
+    "end_pos": 30562,
+    "start_line": 779,
+    "end_line": 779,
+    "start_column": 36,
+    "end_column": 47
+  },
+  {
+    "key": "unserialize",
+    "value": "cart_session",
+    "start_pos": 30681,
+    "end_pos": 30693,
+    "start_line": 782,
+    "end_line": 782,
+    "start_column": 49,
+    "end_column": 61
+  },
+  {
+    "key": "unserialize",
+    "value": "cart_additional_session",
+    "start_pos": 30755,
+    "end_pos": 30778,
+    "start_line": 783,
+    "end_line": 783,
+    "start_column": 57,
+    "end_column": 80
+  },
+  {
+    "key": "unserialize",
+    "value": "cart_user_session",
+    "start_pos": 30836,
+    "end_pos": 30853,
+    "start_line": 784,
+    "end_line": 784,
+    "start_column": 53,
+    "end_column": 70
+  },
+  {
+    "key": "$cart_user_session",
+    "value": "<strong>CART SESSION</strong> <br/><br/>",
+    "start_pos": 30867,
+    "end_pos": 30907,
+    "start_line": 786,
+    "end_line": 786,
+    "start_column": 8,
+    "end_column": 48
+  }
+]

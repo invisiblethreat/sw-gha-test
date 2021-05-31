@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <connectionStrings>
+    <!--<add name="ApplicationServices" connectionString="Data Source=headspinclouddb.cknb1nvcabon.us-east-1.rds.amazonaws.com;Initial Catalog=elp;User Id=chrishanks;Password=Patriots2001;" providerName="System.Data.SqlClient"/>-->
+
+
+    <!--<add name="ApplicationServices"
+     connectionString="Data Source=hanks-sauce;Initial Catalog=elp;Integrated Security=SSPI;"
+        providerName="System.Data.SqlClient" />-->
+    
+    
+  <!--<add name="DefaultConnection" providerName="System.Data.SqlClient" connectionString="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-sb.web-20130430124611;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-sb.web-20130430124611.mdf" />-->
+  
+  
+
+
+    <!--<add name="DefaultConnection" connectionString="Data Source=cloud2.cknb1nvcabon.us-east-1.rds.amazonaws.com;Initial Catalog=elp;User Id=chrishanks;Password=Patriots2001;" providerName="System.Data.SqlClient" />-->
+
+
+
+    <!--<add name="ApplicationServices"
+      connectionString="Data Source=pubdevweb2.edc.org;Initial Catalog=centerelp_tools;User Id=chris.hanks;Password=kjn73V.hf4ihf#sC;"
+      providerName="System.Data.SqlClient"/>-->
+  
+  
+  </connectionStrings>
+  
+    <system.diagnostics>
+        <sources>
+            <!--This section defines the logging configuration for My.Application.Log -->
+            <source name="DefaultSource" switchName="DefaultSwitch">
+                <listeners>
+                    <add name="FileLog"/>
+                    <!-- Uncomment the below section to write to the Application Event Log -->
+                    <!--<add name="EventLog"/>-->
+                </listeners>
+            </source>
+        </sources>
+        <switches>
+            <add name="DefaultSwitch" value="Information"/>
+        </switches>
+        <sharedListeners>
+            <add name="FileLog" type="Microsoft.VisualBasic.Logging.FileLogTraceListener, Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" initializeData="FileLogWriter"/>
+            <!-- Uncomment the below section and replace APPLICATION_NAME with the name of your application to write to the Application Event Log -->
+            <!--<add name="EventLog" type="System.Diagnostics.EventLogTraceListener" initializeData="APPLICATION_NAME"/> -->
+        </sharedListeners>
+    </system.diagnostics>
+<startup><supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5"/></startup></configuration>

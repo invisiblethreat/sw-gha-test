@@ -1,0 +1,152 @@
+[
+  {
+    "key": "__author__",
+    "value": "raunak",
+    "start_pos": 14,
+    "end_pos": 19,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 14,
+    "end_column": 19
+  },
+  {
+    "key": "module_name",
+    "value": "tps2",
+    "start_pos": 510,
+    "end_pos": 513,
+    "start_line": 19,
+    "end_line": 19,
+    "start_column": 53,
+    "end_column": 56
+  },
+  {
+    "key": "component_name",
+    "value": "tps",
+    "start_pos": 533,
+    "end_pos": 535,
+    "start_line": 19,
+    "end_line": 19,
+    "start_column": 76,
+    "end_column": 78
+  },
+  {
+    "key": "SECRET_KEY",
+    "value": "@kr+3baj=4!esynx#m-9cdn=vo0$ab3ns9e!(-mm0i3fz^7(ke",
+    "start_pos": 719,
+    "end_pos": 768,
+    "start_line": 25,
+    "end_line": 25,
+    "start_column": 14,
+    "end_column": 63
+  },
+  {
+    "key": "ROOT_URLCONF",
+    "value": "tps2.urls",
+    "start_pos": 2544,
+    "end_pos": 2552,
+    "start_line": 78,
+    "end_line": 78,
+    "start_column": 16,
+    "end_column": 24
+  },
+  {
+    "key": "BACKEND",
+    "value": "django.template.backends.django.DjangoTemplates",
+    "start_pos": 2596,
+    "end_pos": 2642,
+    "start_line": 82,
+    "end_line": 82,
+    "start_column": 20,
+    "end_column": 66
+  },
+  {
+    "key": "WSGI_APPLICATION",
+    "value": "tps2.wsgi.application",
+    "start_pos": 3061,
+    "end_pos": 3081,
+    "start_line": 96,
+    "end_line": 96,
+    "start_column": 20,
+    "end_column": 40
+  },
+  {
+    "key": "ENGINE",
+    "value": "django.db.backends.mysql",
+    "start_pos": 3211,
+    "end_pos": 3234,
+    "start_line": 103,
+    "end_line": 103,
+    "start_column": 19,
+    "end_column": 42
+  },
+  {
+    "key": "NAME",
+    "value": "tps2",
+    "start_pos": 3255,
+    "end_pos": 3258,
+    "start_line": 104,
+    "end_line": 104,
+    "start_column": 17,
+    "end_column": 20
+  },
+  {
+    "key": "USER",
+    "value": "root",
+    "start_pos": 3279,
+    "end_pos": 3282,
+    "start_line": 105,
+    "end_line": 105,
+    "start_column": 17,
+    "end_column": 20
+  },
+  {
+    "key": "PASSWORD",
+    "value": "a10",
+    "start_pos": 3307,
+    "end_pos": 3309,
+    "start_line": 106,
+    "end_line": 106,
+    "start_column": 21,
+    "end_column": 23
+  },
+  {
+    "key": "LANGUAGE_CODE",
+    "value": "en-us",
+    "start_pos": 3415,
+    "end_pos": 3419,
+    "start_line": 113,
+    "end_line": 113,
+    "start_column": 17,
+    "end_column": 21
+  },
+  {
+    "key": "TIME_ZONE",
+    "value": "UTC",
+    "start_pos": 3436,
+    "end_pos": 3438,
+    "start_line": 115,
+    "end_line": 115,
+    "start_column": 13,
+    "end_column": 15
+  },
+  {
+    "key": "STATIC_URL",
+    "value": "/static/",
+    "start_pos": 3642,
+    "end_pos": 3649,
+    "start_line": 126,
+    "end_line": 126,
+    "start_column": 14,
+    "end_column": 21
+  },
+  {
+    "key": "EXCEPTION_HANDLER",
+    "value": "common.exceptions.exception_handler",
+    "start_pos": 3961,
+    "end_pos": 3995,
+    "start_line": 137,
+    "end_line": 137,
+    "start_column": 26,
+    "end_column": 60
+  }
+]

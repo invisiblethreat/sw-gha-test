@@ -1,0 +1,162 @@
+[
+  {
+    "key": "DOGSTATSD_ENDPOINT",
+    "value": "r\"/api/v1/\"",
+    "start_pos": 791,
+    "end_pos": 801,
+    "start_line": 21,
+    "end_line": 21,
+    "start_column": 21,
+    "end_column": 31
+  },
+  {
+    "key": "METRICS_ENDPOINT",
+    "value": "r\"/intake/\"",
+    "start_pos": 822,
+    "end_pos": 832,
+    "start_line": 22,
+    "end_line": 22,
+    "start_column": 19,
+    "end_column": 29
+  },
+  {
+    "key": "STATUS_ENDPOINT",
+    "value": "r\"/status\"",
+    "start_pos": 852,
+    "end_pos": 861,
+    "start_line": 23,
+    "end_line": 23,
+    "start_column": 18,
+    "end_column": 27
+  },
+  {
+    "key": "INSTANCE_METADATA_ENDPOINT",
+    "value": "r\"/instance_metadata\"",
+    "start_pos": 892,
+    "end_pos": 912,
+    "start_line": 24,
+    "end_line": 24,
+    "start_column": 29,
+    "end_column": 49
+  },
+  {
+    "key": "INSTANCE_METADATA_BULK_ENDPOINT",
+    "value": "r\"/instance_metadata_bulk\"",
+    "start_pos": 948,
+    "end_pos": 973,
+    "start_line": 25,
+    "end_line": 25,
+    "start_column": 34,
+    "end_column": 59
+  },
+  {
+    "key": "TUPLES_ENDPOINT",
+    "value": "r\"/tuples\"",
+    "start_pos": 993,
+    "end_pos": 1002,
+    "start_line": 26,
+    "end_line": 26,
+    "start_column": 18,
+    "end_column": 27
+  },
+  {
+    "key": "TUPLES_API_VERSION",
+    "value": "v2",
+    "start_pos": 1026,
+    "end_pos": 1027,
+    "start_line": 27,
+    "end_line": 27,
+    "start_column": 22,
+    "end_column": 23
+  },
+  {
+    "key": "CONNECT_ENDPOINT",
+    "value": "r\"/connect\"",
+    "start_pos": 1072,
+    "end_pos": 1082,
+    "start_line": 29,
+    "end_line": 29,
+    "start_column": 19,
+    "end_column": 29
+  },
+  {
+    "key": "INSTALL_EPOCH_COLLECTORS_ENDPOINT",
+    "value": "r\"/install-epoch-collectors\"",
+    "start_pos": 1120,
+    "end_pos": 1147,
+    "start_line": 30,
+    "end_line": 30,
+    "start_column": 36,
+    "end_column": 63
+  },
+  {
+    "key": "GAUGE",
+    "value": "gauge",
+    "start_pos": 1158,
+    "end_pos": 1162,
+    "start_line": 31,
+    "end_line": 31,
+    "start_column": 9,
+    "end_column": 13
+  },
+  {
+    "key": "RATE",
+    "value": "rate",
+    "start_pos": 1173,
+    "end_pos": 1176,
+    "start_line": 32,
+    "end_line": 32,
+    "start_column": 8,
+    "end_column": 11
+  },
+  {
+    "key": "COUNT",
+    "value": "count",
+    "start_pos": 1188,
+    "end_pos": 1192,
+    "start_line": 33,
+    "end_line": 33,
+    "start_column": 9,
+    "end_column": 13
+  },
+  {
+    "key": "LOCATION_SPECIFIER",
+    "value": "metrics_handler",
+    "start_pos": 1350,
+    "end_pos": 1364,
+    "start_line": 36,
+    "end_line": 36,
+    "start_column": 22,
+    "end_column": 36
+  },
+  {
+    "key": "host",
+    "value": "",
+    "start_pos": 5474,
+    "end_pos": 5473,
+    "start_line": 161,
+    "end_line": 161,
+    "start_column": 12,
+    "end_column": 11
+  },
+  {
+    "key": "val",
+    "value": "",
+    "start_pos": 13449,
+    "end_pos": 13448,
+    "start_line": 350,
+    "end_line": 350,
+    "start_column": 17,
+    "end_column": 16
+  },
+  {
+    "key": "method",
+    "value": "POST",
+    "start_pos": 14616,
+    "end_pos": 14619,
+    "start_line": 379,
+    "end_line": 379,
+    "start_column": 164,
+    "end_column": 167
+  }
+]

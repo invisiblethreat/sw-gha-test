@@ -1,0 +1,72 @@
+[
+  {
+    "key": "require",
+    "value": "http",
+    "start_pos": 20,
+    "end_pos": 23,
+    "start_line": 1,
+    "end_line": 1,
+    "start_column": 20,
+    "end_column": 23
+  },
+  {
+    "key": "require",
+    "value": "fs",
+    "start_pos": 46,
+    "end_pos": 47,
+    "start_line": 2,
+    "end_line": 2,
+    "start_column": 18,
+    "end_column": 19
+  },
+  {
+    "key": "require",
+    "value": "path",
+    "start_pos": 72,
+    "end_pos": 75,
+    "start_line": 3,
+    "end_line": 3,
+    "start_column": 20,
+    "end_column": 23
+  },
+  {
+    "key": "filePath",
+    "value": "./login.html",
+    "start_pos": 243,
+    "end_pos": 254,
+    "start_line": 9,
+    "end_line": 9,
+    "start_column": 14,
+    "end_column": 25
+  },
+  {
+    "key": "contentType",
+    "value": "text/html",
+    "start_pos": 320,
+    "end_pos": 328,
+    "start_line": 12,
+    "end_line": 12,
+    "start_column": 20,
+    "end_column": 28
+  },
+  {
+    "key": "contentType",
+    "value": "text/javascript",
+    "start_pos": 384,
+    "end_pos": 398,
+    "start_line": 15,
+    "end_line": 15,
+    "start_column": 18,
+    "end_column": 32
+  },
+  {
+    "key": "contentType",
+    "value": "text/css",
+    "start_pos": 445,
+    "end_pos": 452,
+    "start_line": 18,
+    "end_line": 18,
+    "start_column": 18,
+    "end_column": 25
+  }
+]
