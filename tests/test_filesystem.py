@@ -17,12 +17,12 @@ def test_file_contents(filesystem_filename):
     """Test file contents of various sizes match expected."""
 
     try:
-        f = open(filesystem_filename, "rb")
+        file = open(filesystem_filename, "rb")
     except FileNotFoundError:
         # If file isn't found maybe we're running in vscode so prepend "tests/" to path
-        f = open(f"tests/{filesystem_filename}", "rb")
+        file = open(f"tests/{filesystem_filename}", "rb")
 
-    extfs = Filesystem(fileobj=f)
+    extfs = Filesystem(fileobj=file)
     extfs.run()
 
     read_sizes = [
@@ -37,8 +37,8 @@ def test_file_contents(filesystem_filename):
         expected = b"C" * read_size
         read_filename = f"/{read_size}byte.txt"
 
-        rf = extfs.open(read_filename)
-        observed = rf.read()
-        rf.close()
+        readf = extfs.open(read_filename)
+        observed = readf.read()
+        readf.close()
 
         assert expected == observed, f"File {read_filename} did not contain expected content!"
