@@ -1,23 +1,32 @@
-
-
-#      - export PACKAGENAME=`cat setup.py | grep -P "^[ ]{4}name=" | cut -d'=' -f2 | sed s/[\',]//g`
-#      - pip3 install -e . --extra-index-url https://pypi.org/simple --index-url https://$PACKAGECLOUD_TOKEN:@packagecloud.io/Coalition/leakdetection/pypi/simple
-#      - pip3 install -r test-requirements.txt
-#      - pip3 freeze
-#      - pytest --showlocals --tb=long -v --cov=$PACKAGENAME --cov-report term-missing tests/
+#---
+#kind: pipeline
+#name: default
 #
-#  - name: build
-#    image: python:3.8-slim
-#    environment:
-#      PACKAGECLOUD_TOKEN:
-#        from_secret: packagecloud_api_key
-#    commands:
-#      - apt-get update && apt-get -y install curl
-#      - pip3 freeze
-#      - pip3 install -e . --extra-index-url https://pypi.org/simple --index-url https://$PACKAGECLOUD_TOKEN:@packagecloud.io/Coalition/leakdetection/pypi/simple
-#      - python3 setup.py bdist_wheel
-#      - curl -X POST https://$PACKAGECLOUD_TOKEN:@packagecloud.io/api/v1/repos/Coalition/leakdetection/packages.json -F "package[distro_version_id]=166" -F "package[package_file]=@`ls dist/*.whl`"
-
+#steps:
+#- name: test
+#  image: python:3.6-slim
+#  commands:
+#    - pip3 install -r test_requirements.txt
+#    - pip3 install -r requirements.txt
+#    - PYTHONPATH=ExtFs
+#    - pip3 install -e .
+#    - pytest --showlocals --tb=long -v --cov=ExtFs --cov-report term-missing tests/
+#- name: build
+#  image: python:3.6-slim
+#  environment:
+#    PACKAGECLOUD_TOKEN:
+#      from_secret: packagecloud_token
+#  commands:
+#    - apt-get update && apt-get -y install curl
+#    - pip3 install -r requirements.txt
+#    - python setup.py bdist_wheel
+#    - curl -X POST https://$PACKAGECLOUD_TOKEN:@packagecloud.io/api/v1/repos/Coalition/leakdetection/packages.json -F "package[distro_version_id]=166" -F "package[package_file]=@`ls dist/*.whl`"
+#  when:
+#    branch:
+#      - master
+#
+#node:
+#  env: aws-sandbox
 ---
 name: Test, Build, and Upload
 on:
@@ -26,6 +35,9 @@ on:
       - master
       - main
 jobs:
+  env:
+    cache_name: extfs
+    package: ExtFs
   testing:
     runs-on: ubuntu-20.04
     steps:
@@ -36,12 +48,10 @@ jobs:
         run: sudo pip3 install -r requirements.txt
       - name: Install Python test requirements with pip
         run: sudo pip3 install -r test-requirements.txt
-          # - name: Install remaining dependencies
-        #        run: sudo pip3 install -e . --extra-index-url https://pypi.org/simple --index-url https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/Coalition/leakdetection/pypi/simple
-      - name: Extract the package name and set variable
-        run: echo "packagename=$(grep name setup.py|cut -d\' -f2)" >> $GITHUB_ENV
+      - name: Install remaining dependencies
+        run: sudo pip3 install -e .
       - name: Run tests
-        run: pytest --showlocals --tb=long -v --cov=${{ env.packagename }} --cov-report term-missing $GITHUB_WORKSPACE/tests/
+        run: pytest --showlocals --tb=long -v --cov=${{ env.packagename }} --cov-report term-missing tests/
   build:
     needs: testing
     runs-on: ubuntu-20.04
@@ -50,18 +60,18 @@ jobs:
       - name: Install build dependencies
         run: sudo apt-get update && sudo apt-get -y install python3.8 python3-pip
       - name: Install Python requirements with pip
-        run: sudo pip3 install -r $GITHUB_WORKSPACE/requirements.txt
+        run: sudo pip3 install -r requirements.txt
       - name: Install PackageCloud Dependencies
-        run: sudo pip3 install -e $GITHUB_WORKSPACE/. --extra-index-url https://pypi.org/simple --index-url https://${{ secrets.LD_PACKAGECLOUD_TOKEN }}:@packagecloud.io/Coalition/leakdetection/pypi/simple
+        run: sudo pip3 install -e .
       - name: Build packages
         run: python3 setup.py bdist_wheel
       - name: Cache artifacts
         uses: actions/cache@v2
         env:
-          cache-name: content_analyzer
+          cache-name: ${{ env.cache_name }}
         with:
           path: dist/
-          key: content_analyzer
+          key: ${{ env.cache_name }}
 
   upload:
     needs: build
@@ -72,10 +82,10 @@ jobs:
       - name: Restore artifacts
         uses: actions/cache@v2
         env:
-          cache-name: content_analyzer
+          cache-name: ${{ env.cache_name }}
         with:
           path: dist/
-          key: content_analyzer
+          key: ${{ env.cache_name }}
       - name: List artifacts
         run: ls -lah dist/
       - name: Upload artifacts to PackageCloud

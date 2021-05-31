@@ -1,8 +1,1 @@
 more_itertools
-attrs
-pygments
-PyYAML
-parso==0.4.0
-esprima==4.0.1
-javalang
-lark-parser

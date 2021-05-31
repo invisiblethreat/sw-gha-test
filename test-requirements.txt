@@ -1,5 +1,0 @@
-pytest
-pytest-cov
-# pytest-ordering
-pytest-pylint
-# pytest-xdist
