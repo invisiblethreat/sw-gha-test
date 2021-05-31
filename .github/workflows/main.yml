@@ -34,10 +34,10 @@ on:
     branches:
       - master
       - main
+env:
+  cache_name: extfs
+  package: ExtFs
 jobs:
-  env:
-    cache_name: extfs
-    package: ExtFs
   testing:
     runs-on: ubuntu-20.04
     steps:
